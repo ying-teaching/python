@@ -13,15 +13,15 @@ For Mac OS, it is often easy to run VS Code from the command line, follow the in
 
 ## Learn VS Code
 
-VS code has a rich set of editing features and it is extensible. You should watch the first five [introductory videos](https://code.visualstudio.com/docs/getstarted/introvideos) to learn the basic concepts. You should read most content in the Get Started section.
+VS code has a rich set of editing features and it is extensible. Click `Help -> Welcome`, you can see the Welcome screen. It has shortcuts to create a new file, open a folder, recent projects and a lot help information.
 
-To learn more, the [User Guide](https://code.visualstudio.com/docs/editor/codebasics) has detail infomration about using VS Code. It is nice to know.
+You should find time to go through the videos and docs in [Get Started](https://code.visualstudio.com/docs/getstarted/introvideos) to learn the basic functions such as user interface, extensions, shortcut keys, code editing, file operations, and settings. Though examples are JavaScript or text files, most operations are the same for other program languages. The more you know about the VS code, the more efficient you will be. You should invest time to learn it. For detail information about a specific feature, check the [VS Code User Guide](https://code.visualstudio.com/docs/editor/codebasics).
 
 ## Setup Python for VS Code
 
-VS Code has powerful support for Python programming. You need to install the Python extension and configure it to fit your needs. The [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python) document has the setup and basic use information. The [Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial) has more documents.
+VS Code has powerful support for Python programming. You need to install the [Microsoftw Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and optionally configure it to fit your needs. The [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python) document has the setup and basic use information. You should read the [Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial) that has more information about working with Python in VS Code.
 
-For an impatient learner, you can follow one of the following videos:
+To see an installation/setup demo, you can watch one of the following videos:
 
 - For Widnows, [VS Code Python Setup Windows 10](https://youtu.be/Jd4trL90HSw)
 - For Mac OS, [Setup Python For Visual Studio Code - macOS](https://youtu.be/veJvQ88ULOM). Please make sure that VS code uses the Python 3 you installed, not the Python 2 coming with Mac OS.
