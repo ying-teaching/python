@@ -4,9 +4,9 @@
 
 This repository has the following resources:
 
-- [command-line.md](./command-line.md): introduction of command line tool.
+- [command-line.md](./command-line.md): introduction of command line tool. Please read and learn this first if you don't know CLI. It is must-to-know for a programmer.
 - [install-python.md](./install-python.md): how to install Python.
-- [install-vscode.md](./install-vscode.md): how to install and config Visual Studo Code (VS Code).
+- [install-vscode.md](./install-vscode.md): how to install, config and use Visual Studo Code (VS Code).
 
 The following is optional but recommended for those who want to be more professional:
 
