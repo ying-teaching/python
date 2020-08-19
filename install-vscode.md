@@ -19,7 +19,7 @@ You should find time to go through the videos and docs in [Get Started](https://
 
 ## Setup Python for VS Code
 
-VS Code has powerful support for Python programming. You need to install the [Microsoftw Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and optionally configure it to fit your needs. The [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python) document has the setup and basic use information. You should read the [Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial) that has more information about working with Python in VS Code.
+VS Code has powerful support for Python programming. You need to install the [Microsoftw Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and optionally configure it to fit your needs. The [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python) document has the setup and basic use information. You should read the tutorial, and the editing code sections in [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
 To see an installation/setup demo, you can watch one of the following videos:
 
