@@ -8,7 +8,7 @@ You need Python to interprete/compile your Python program to run it. The first t
 
 To check if Python is installed in your computer and the Python version, in your command line, run `python --version`. By default, Windows doesn't come with Python.
 
-MacOS comes with an old Python 2, you can check the version using `python --versoin`. The MacOS may pre-install an old version Python 3, you can check the version using `python --version`. Please keep these preinstalled Python and install the latest Python 3 version.
+MacOS comes with an old Python 2, you can check the version using `python --versoin`. The MacOS may pre-install an old version Python 3, you can check the version using `python3 --version`. You can ignore both and install the lastes Python 3 edition. In MacOS, alwasy use `python3` instead of `python`. Simailary, if you want to try built-in IDLE programming enviornment, run `idle3` in your terminal.
 
 ## The Latest Python 3 Installation
 

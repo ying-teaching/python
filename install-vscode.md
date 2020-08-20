@@ -1,6 +1,10 @@
 # Install and Configure VS Code
 
-VS Code might be the best development tool for Python programming and it gets better everyday. Another benefit of using VS code is that it supports many programming languages and can handle many development tasks such as file editing, running and debugging. It has a huge amount of extensions that can do most development tasks you need to do. Compared to VS code, the Python built-in tools are less functional and hard to use.
+VS Code might be the best development tool for Python programming and it gets better everyday. Another benefit of using VS code is that it supports many programming languages and can handle many development tasks such as file editing, running and debugging. It has a huge amount of extensions that can do most development tasks you need to do.
+
+## Other Python Development Tools
+
+Python comes with a built-in IDLE programming environment (`idle` in Windows, `idle3` in Mac OS). It only has basic functions. Another popule IDE (integrated development environment) is [JetBrains' PyCharm](https://www.jetbrains.com/pycharm/). It is a good IDE but the professional PyCharm edition is not free.
 
 ## Install VS Code
 
