@@ -1,14 +1,18 @@
 # Python 3 Installation
 
-## Python 3 vs Python 3
+If you are not an advanced user, please follow the instructions here to install the latest Python 3 software. Please don't install `Anaconda` or other fancy software if you don't know what you are doing.
+
+## Python 3 vs Python 2
 
 You need Python to interprete/compile your Python program to run it. The first task of learning Python is installing Python in your computer. There are two major versions of Python: Python 2 and Python 3 and they are not fully compatible. Python 2 can not run Python 3 program and vice versa. There are many Python 2 programs but Python 2 is no longer developed, you shoud learn Python 3.
 
-To check if Python is installed in your computer and the Python version, in your command line, run `python`. By default, Windows doesn't come with Python but MacOS comes with an old Python 2. Try `python3` in MacOS. If there is a Python 3 installed, you are done.
+To check if Python is installed in your computer and the Python version, in your command line, run `python --version`. By default, Windows doesn't come with Python.
 
-## Installation
+MacOS comes with an old Python 2, you can check the version using `python --versoin`. The MacOS may pre-install an old version Python 3, you can check the version using `python --version`. Please keep these preinstalled Python and install the latest Python 3 version.
 
-You can ignore the specific Python version in the following videos. Please download and install the latest Python 3 version -- something like `3.x.y`. The steps are similar.
+## The Latest Python 3 Installation
+
+Please download and install the latest Python 3 version from [Python Dowland Site](https://www.python.org/downloads/). The latest version is something like `3.x.y`. You can ignore the specific Python version in the following videos. The steps should be similar for all Python 3 versions.
 
 ### Windows
 
@@ -16,4 +20,12 @@ You can ignore the specific Python version in the following videos. Please downl
 
 ### MacOS
 
-[How to install Python on Mac OS](https://youtu.be/TgA4ObrowRg). Make sure that you can run `python3` from the command line.
+[How to install Python on Mac OS](https://youtu.be/TgA4ObrowRg). Make sure that you can run `python3` from the command line. For advanced user, you can check the [Using Python on a Macintosh](https://docs.python.org/3/using/mac.html).
+
+## Install Python Packages
+
+Many useful Python software are avaialabe as packages/modules that can be installed using the `pip` or `pip3` commmand - they are the same.
+
+First, you should upgrade your `pip` using the command `python3 -m pip install --upgrade pip`. Use `pip --version` to check that it works and displays the current version.
+
+Then, use `pip install package-name` to install a Python package, replace the `package-name` with the specific package name. For example, if you want ot use `matplotlib` to plot a graph, use the command `pip install matplotlib` to install it. You may need to reload your VS Code window to use the newly installed package.
