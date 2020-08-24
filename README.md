@@ -2,7 +2,11 @@
 
 Learn Python, for fun and for profit.
 
-## 1 Get Started
+Each computer has different applications/tools installed and each computer is unique. More importantly is that each person thinks differently. An efficient way to learn programming is to learn as a team.
+
+If you have any issues and you have tried very hard but still cannot sovle it, please submit the detail information such as your Operating systems, actions you tried and screenshoot of errors etc to discussion forum. You are also welcome to post learning resources, solutions of nasty issues to the dicussion forum.
+
+## 1. Get Started
 
 This folder has the getting-started notes to install and configure your development tools. The notes have links to additional online learning resources.
 
@@ -10,14 +14,33 @@ This folder has the getting-started notes to install and configure your developm
 - [install-python.md](./get-started/install-python.md): how to install Python.
 - [Use VS Code to Develop Python Programs](./get-started/install-vscode.md): how to install and use Visual Studo Code (VS Code) to develop Python programs.
 
-The following is optional but recommended for those who want to be more professional:
+The following is optional but recommended for students with some progromming experience -- it is how the professional programmers manage source code:
 
 - [git-and-github.md](./get-started/git-and-github.md): use Git and GitHub to manage your software source code.
 
-Each computer has different applications/tools installed and each computer is unique. It is almost impossible for one to know the answers for all installation/setup/use issues. The best solution is to learn as a team.
+- [Python Programming](./introduction/python-programming.md): how a computer runs programs, programming languages, compiler and interpreter.
+- [Program Design](./introduction/program-design.md): the software development life cycle, flowcharts and pseudo-code.
 
-If you have any issues and you have tried very hard but still cannot sovle it, please submit the detail information such your OS, actions you did and screenshoot of errors etc to Beachboard discussion forum. You are also welcome to post any resources, things you learned to the dicussion forum.
+## 2. Basic I/O and Data Processing (TBD)
 
-## 2 Introduction to Python Programming
+This folder has Jupyter notebooks files that include both markdown and Python code. You can download the files and play with them.
 
-- [Python Programming](./introduction/python-programming.md): how a program wroks, programming languages, compiler and interpreter
+- [Hello World](./introduction/hello-world.ipynb): Use `print` to say "hello world" and other simple strings.
+- [Variable and Naming](./introduiction/variable-naming.ipynb): a notebook that introduces the variable concept and its naming conventions.
+- [Arithmetic](./introduiction/arithmatic.ipynb): perform arithmatic calculations.
+- [Reading Input](./introduiction/reading-input.pynb): reading input of different types.
+- [F-strings](./introduiction/f-strings.ipynb): reading input of different types.
+
+## 3. Control Statements (TBD)
+
+## 4. Functions (TBD)
+
+## 5. Files and Exceptions (TBD)
+
+## 6. List and Tuples (TBD)
+
+## 7. Dictionaries and Sets (TBD)
+
+## 8. Processing Strings (TBD)
+
+## 9. Advanced Data Processing (TBD)
