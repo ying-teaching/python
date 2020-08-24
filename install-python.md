@@ -1,14 +1,14 @@
 # Python 3 Installation
 
-If you are not an advanced user, please follow the instructions here to install the latest Python 3 software. Please don't install `Anaconda` or other fancy software if you don't know what you are doing.
+If you are not an advanced user, please follow the instructions here to install the latest Python 3 software. Advanced users can install `Anaconda` -- it is not recommended for new developers because it requires more knowledge to use it.
 
 ## Python 3 vs Python 2
 
-You need Python to interprete/compile your Python program to run it. The first task of learning Python is installing Python in your computer. There are two major versions of Python: Python 2 and Python 3 and they are not fully compatible. Python 2 can not run Python 3 program and vice versa. There are many Python 2 programs but Python 2 is no longer developed, you shoud learn Python 3.
+You need a Python interpreter to run your Python program. The first task of learning Python is installing Python in your computer. There are two major versions of Python: Python 2 and Python 3 and they are not fully compatible. Python 2 can not run Python 3 program and vice versa. There are many Python 2 programs but Python 2 is no longer developed, you shoud learn Python 3.
 
-To check if Python is installed in your computer and the Python version, in your command line, run `python --version`. By default, Windows doesn't come with Python.
+By default, Windows doesn't come with Python.
 
-MacOS comes with an old Python 2, you can check the version using `python --versoin`. The MacOS may pre-install an old version Python 3, you can check the version using `python3 --version`. You can ignore both and install the lastes Python 3 edition. In MacOS, alwasy use `python3` instead of `python`. Simailary, if you want to try built-in IDLE programming enviornment, run `idle3` in your terminal.
+MacOS comes with an old Python 2, you can check the version using `python --versoin`. The MacOS may pre-install an old version Python 3, you can check the version using `python3 --version`. You should install and use the lastes Python 3 edition. In MacOS, alwasy use `python3` instead of `python`. Simailary, if you want to try built-in IDLE programming enviornment, run `idle3` in your terminal.
 
 ## The Latest Python 3 Installation
 
@@ -26,6 +26,6 @@ Please download and install the latest Python 3 version from [Python Dowland Sit
 
 Many useful Python software are avaialabe as packages/modules that can be installed using the `pip` or `pip3` commmand - they are the same.
 
-First, you should upgrade your `pip` using the command `python3 -m pip install --upgrade pip`. Use `pip --version` to check that it works and displays the current version.
+First, you may want to upgrade your `pip` using the command `python3 -m pip install --upgrade pip`. Use `pip --version` to check that it works and displays the current version.
 
-Then, use `pip install package-name` to install a Python package, replace the `package-name` with the specific package name. For example, if you want ot use `matplotlib` to plot a graph, use the command `pip install matplotlib` to install it. You may need to reload your VS Code window to use the newly installed package.
+Then, use `pip install package-name` or `pip3 install package-name` to install a Python package, replace the `package-name` with the specific package name. For example, if you want to use `matplotlib` to plot a graph, use the command `pip install matplotlib` to install it.
