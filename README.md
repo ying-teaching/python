@@ -1,16 +1,16 @@
-# Python Programming
+# Python Programming Notes
 
-## Resources
+## Get Started
 
-This repository has the following resources:
+This folder has the following notes:
 
-- [command-line.md](./command-line.md): introduction of command line tool. Please read and learn this first if you don't know CLI. It is must-to-know for a programmer.
-- [install-python.md](./install-python.md): how to install Python.
-- [Use VS Code to Develop Python Programs](./install-vscode.md): how to install and use Visual Studo Code (VS Code) to develop Python programs.
+- [command-line.md](./get-started/command-line.md): introduction of command line tool. Please read and learn this first if you don't know CLI. It is must-to-know for a programmer.
+- [install-python.md](./get-started/install-python.md): how to install Python.
+- [Use VS Code to Develop Python Programs](./get-started/install-vscode.md): how to install and use Visual Studo Code (VS Code) to develop Python programs.
 
 The following is optional but recommended for those who want to be more professional:
 
-- [git-and-github.md](./git-and-github.md): use Git and GitHub to manage your software source code.
+- [git-and-github.md](./get-started/git-and-github.md): use Git and GitHub to manage your software source code.
 
 ## Problems and Discussions
 
