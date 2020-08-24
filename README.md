@@ -12,9 +12,9 @@ It is a common practice to start with `0` in programming. This folder has the ma
 - [install-python.md](./get-started/install-python.md): how to install Python.
 - [Use VS Code to Develop Python Programs](./get-started/install-vscode.md): how to install and use Visual Studo Code (VS Code) to develop Python programs.
 
-The following Git-and-GitHub setup is optional but recommended for students with some progromming experience -- it is how the professional programmers manage source code:
+Eventually you should use GitHub to manage your source code -- it is how the professional programmers manage source code:
 
-- [git-and-github.md](./get-started/git-and-github.md): use Git and GitHub to manage your software source code.
+- [git-and-github.md](./get-started/git-and-github.md): use GitHub to manage your software source code.
 
 ## 1. Introduction to Programming
 
