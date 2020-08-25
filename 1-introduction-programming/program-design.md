@@ -45,7 +45,7 @@ An algorithm is a set of well-defined logical steps that must be taken to perfor
 
 When you design an algorithm, it is better to use pseudocode. Pseudocode is fake code that has no syntax rule, not meant to be compiled or executed. It is an informal language that you can create your pesudocode. Its purpose is to help algorithm design. At design phase, there is no need to worry about syntax errors. You can focus on algorithm design to sovle the problem. Later, pseudocode can be translated directly into actual code in any programming language.
 
-You can even use diagrams such as [Flowchart](https://en.wikipedia.org/wiki/Flowchart). The following is an example from the wikipedia article.
+You can even use diagrams such as [Flowchart](https://en.wikipedia.org/wiki/Flowchart) to document your algorithm design. The following is an example from the wikipedia article.
 
 ![flowchart](./images/flowchart.png)
 
