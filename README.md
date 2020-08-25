@@ -1,8 +1,6 @@
-# Learn Python, for fun and for profit
+# Learn Python, for fun and profit
 
-Each computer has different applications/tools installed thus each computer is unique, and even more important, each person thinks differently. Programming is a brain activity and program code is primarily a communication medium for programmers. An efficient way to learn programming is to learn as a team.
-
-If you have any issues and you have tried very hard but still cannot sovle it, please submit the detail information such as your Operating systems, actions you tried and screenshoot of errors etc to discussion forum. You are also welcome to post learning resources, solutions of nasty issues to the dicussion forum.
+This repository introduce you to Python programming. Most people have fun in learning Python and they can make big profit if they have big fun.
 
 ## 0. Installation and Setup
 
@@ -15,6 +13,10 @@ It is a common practice to start with `0` in programming. This folder has the ma
 Eventually you should use GitHub to manage your source code -- it is how the professional programmers manage source code:
 
 - [git-and-github.md](./0-installation-setup/git-and-github.md): use GitHub to manage your software source code.
+
+Each computer has different applications/tools installed thus each computer is unique, and even more important, each person thinks differently. Programming is a brain activity and program code is primarily a communication medium for programmers. An efficient way to learn programming is to learn as a team.
+
+If you have any issues and you have tried very hard but still cannot sovle it, please describe the detail information such as your Operating systems, actions you tried and screenshoot of errors etc to class discussion. You are also welcome to post learning resources, solutions of nasty issues to the team dicussion.
 
 ## 1. Introduction to Programming
 
