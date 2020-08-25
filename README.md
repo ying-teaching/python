@@ -10,7 +10,7 @@ It is a common practice to start with `0` in programming. This folder has the ma
 
 - [command-line.md](./0-installation-setup/command-line.md): introduction of command line tool. Please read and learn this first if you don't know CLI. It is must-to-know for a programmer.
 - [install-python.md](./0-installation-setup/install-python.md): how to install Python.
-- [Use VS Code to Develop Python Programs](./0-installation-setup/install-vscode.md): how to install and use Visual Studo Code (VS Code) to develop Python programs.
+- [Use VS Code to Develop Python Programs](./0-installation-setup/vscode-python.md): how to install and use Visual Studo Code (VS Code) to develop Python programs.
 
 Eventually you should use GitHub to manage your source code -- it is how the professional programmers manage source code:
 
