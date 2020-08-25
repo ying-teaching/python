@@ -54,6 +54,8 @@ plt.plot(x, np.sin(x))       # Plot the sine of each x point
 plt.show()                   # Display the plot
 ```
 
+You don't need to understand the code here. Just know that it uses fucntions not built into the Python interpreter.
+
 You will see underlines in `matplotlib` and `numpy` if you don't have the required packages installed. If you run the file regardlessly, you will see an error message: `ModuleNotFoundError: No module named 'matplotlib'`.
 
 To fix the error, you need to install `matplotlib` package. The `matplotlib` package uses functions from `numpy` package. When you install `matplotlib`, it installs `numpy` package as a dependency.
