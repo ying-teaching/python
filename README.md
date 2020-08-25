@@ -8,26 +8,26 @@ If you have any issues and you have tried very hard but still cannot sovle it, p
 
 It is a common practice to start with `0` in programming. This folder has the markdown notes to install and configure your development tools. The notes have links to additional online learning resources.
 
-- [command-line.md](./get-started/command-line.md): introduction of command line tool. Please read and learn this first if you don't know CLI. It is must-to-know for a programmer.
-- [install-python.md](./get-started/install-python.md): how to install Python.
-- [Use VS Code to Develop Python Programs](./get-started/install-vscode.md): how to install and use Visual Studo Code (VS Code) to develop Python programs.
+- [command-line.md](./0-installation-setup/command-line.md): introduction of command line tool. Please read and learn this first if you don't know CLI. It is must-to-know for a programmer.
+- [install-python.md](./0-installation-setup/install-python.md): how to install Python.
+- [Use VS Code to Develop Python Programs](./0-installation-setup/install-vscode.md): how to install and use Visual Studo Code (VS Code) to develop Python programs.
 
 Eventually you should use GitHub to manage your source code -- it is how the professional programmers manage source code:
 
-- [git-and-github.md](./get-started/git-and-github.md): use GitHub to manage your software source code.
+- [git-and-github.md](./0-installation-setup/git-and-github.md): use GitHub to manage your software source code.
 
 ## 1. Introduction to Programming
 
 The following two files give an overview of programming development:
 
-- [Python Programming](./introduction/python-programming.md): how a computer runs programs, programming languages, compiler and interpreter.
-- [Program Design](./introduction/program-design.md): the software development life cycle, flowcharts and pseudo-code.
+- [Python Programming](./1-introduction-programming/python-programming.md): how a computer runs programs, programming languages, compiler and interpreter.
+- [Program Design](./1-introduction-programming/program-design.md): the software development life cycle, flowcharts and pseudo-code.
 
 ## 2. Basic I/O and Data Processing (TBD)
 
 This folder has Jupyter notebooks files that include both markdown and Python code. You can download the files and play with them.
 
-- [Hello World](./introduction/hello-world.ipynb): Use `print` to say "hello world" and other simple strings.
+- [Hello World](./2-introduction-programming/hello-world.ipynb): Use `print` to say "hello world" and other simple strings.
 - [Variable and Naming](./introduiction/variable-naming.ipynb): a notebook that introduces the variable concept and its naming conventions.
 - [Arithmetic](./introduiction/arithmatic.ipynb): perform arithmatic calculations.
 - [Reading Input](./introduiction/reading-input.pynb): reading input of different types.

@@ -15,7 +15,7 @@ Go to [VS Code docs](https://code.visualstudio.com/docs) to learn and install VS
 - For Windows, follow the [VS Code on Windows](https://code.visualstudio.com/docs/setup/windows) or watch the video [How to Install VS Code 2020](https://youtu.be/7yLXtkSsRKE).
 - For Mac OS, follow the [VS Code on macOS instruction](https://code.visualstudio.com/docs/setup/mac) or watch the video [How to Install VS Code on Mac](https://youtu.be/IATbkNl8qng).
 
-For Mac OS, it is often easy to run VS Code from the command line, follow the instruction in [launching form the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
+Programmers often run VS Code from the command line. There is an extra step to enable this in Mac OS. Please follow the instruction in [launching form the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
 
 ## Learn VS Code
 
@@ -31,7 +31,8 @@ For detail information about a specific feature, check the [VS Code User Guide](
 
 ## Setup Python for VS Code
 
-VS Code has powerful support for Python programming. You need to install the [Microsoftw Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
+VS Code has powerful support for Python programming. You need to install the [Microsoftw Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python). Be caerful to install the Microsoft extention -- it is the best.
+
 To see an installation/setup demo, you can watch one of the following videos:
 
 - For Widnows, [VS Code Python Setup Windows 10](https://youtu.be/Jd4trL90HSw)
