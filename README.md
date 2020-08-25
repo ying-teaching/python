@@ -18,10 +18,11 @@ Eventually you should use GitHub to manage your source code -- it is how the pro
 
 ## 1. Introduction to Programming
 
-The following two files give an overview of programming development:
+The following files give an overview of programming development:
 
-- [Python Programming](./1-introduction-programming/python-programming.md): how a computer runs programs, programming languages, compiler and interpreter.
+- [Introduction](./1-introduction-programming/introduction.md): how a computer runs programs, programming languages, compiler and interpreter.
 - [Program Design](./1-introduction-programming/program-design.md): the software development life cycle, flowcharts and pseudo-code.
+- [Python Tutorial](./1-introduction-programming/python-tutorial.md)
 
 ## 2. Basic I/O and Data Processing (TBD)
 
