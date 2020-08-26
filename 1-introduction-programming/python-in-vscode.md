@@ -1,4 +1,4 @@
-# Python Tutorial
+# Python in VS Code
 
 This tutorial is based on the [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial). It is revised to fit beginners.
 
@@ -10,15 +10,9 @@ It is a tradition from C programming language to say "Hello World" as the first 
 
 In Python, it is a single line: `print('Hello World!')`.
 
-- `print` is a built-in function that displays (prints) things to a console. A function, as defined in math, takes an input and generates an output. The input is the value passed into the function to generate an output. An input consists of one or multiple values. Those input values are called arguments. A console is your terminal (Mac OS or Linux) or commmand line (Windows) screen.
-- `()` is a pair of parentheses that separates a function from its inputs. The input of the function is put inside a pair of parenthese.
-- `'Hello World!'` is the input. It is the only argument here. It is a string that has a sequence of characters quoted in a single quote. Actually you can use double quote and triple quote to quote a string. `"Hello World!"` and `"""Hello World!"""` are the same as `'Hello World!'`. You will see the usage of the three syntax formats.
-
-Finally, `print('Hello World!')` is interpreted by Python to display the "Hello World!" to the console.
-
 ## Excute Python Code
 
-It is usually a good idea to create a folder that works as your workspace for an application. An application usually consists of many files and data resources.
+It is usually a good idea to create a folder that works as your workspace for an application. An application usually consists of many files and data resources. You can create a folder using GUI or CLI. As a programmer, you often use CLI.
 
 Open your terminal (MacOS) or command line (Windows). Create a new folder named as "hello-world" and change director to the folder. The two commands are:
 
@@ -31,8 +25,8 @@ You can use `pwd` command to check that you are in the correct folder. Then use 
 
 With Python interpreter installed, you can run the code in Python interpreter (`python3`) or in IDLE (`idle`). Once you install VS Code, you have more ways to run Python code. Together, you can
 
-- run `python3` or `python` in a terminal or in the VS Code terminal.
-- use Python REPL within the VS Code. It is the same as runl `idle` in command line outside VS Code.
+- run `python3` in your computer OS terminal or in the VS Code terminal.
+- use Python REPL within the VS Code. It is the same as running `idle3` in command line outside VS Code.
 - when you create `.py` file such as `hello.py`, you can run the file from a terminal or command line using the command `python hello.py`.
 - use menu or shortcut to run/debug a Python files that has `.py` appendix.
 - run Jupyter Notebook cells for files that has `.ipynb` appendix.
