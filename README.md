@@ -24,7 +24,7 @@ The following files give an overview of programming development:
 
 - [Introduction](1-introduction-programming/introduction.md): how a computer runs programs, programming languages, compiler and interpreter.
 - [Program Design](1-introduction-programming/program-design.md): the software development life cycle, flowcharts and pseudo-code.
-- [Python in VS Code](1-introduction-programming/python-in-vscode.md): develop and run Pythin programs using VS Code.
+- [Getting Started with Python in VS Code](1-introduction-programming/getting-started.md): develop and run Pythin programs using VS Code.
 
 ## 2. Basic Operations (TBD)
 
