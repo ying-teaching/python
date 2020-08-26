@@ -30,7 +30,7 @@ With Python interpreter installed, you can run the code in Python interpreter (`
 - when you create `.py` file such as `hello.py`, you can run the file from a terminal or command line using the command `python hello.py`.
 - use menu or shortcut to run/debug a Python files that has `.py` appendix.
 - run Jupyter Notebook cells for files that has `.ipynb` appendix.
-- run cells marked by `% ##` in a `.py` files.
+- run cells marked by `# %%` in a `.py` files.
 - write/wring Python code in an interactive Python window in VS Code. Usually this window opens when you run Jupyter notebook cells or Python cells.
 
 ## Use Packages
