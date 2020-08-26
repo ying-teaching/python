@@ -12,7 +12,56 @@ Then go to [https://git-scm.com/downloads](https://git-scm.com/downloads) to dow
 
 After downloading and installing git in your local computer, use `git config --global user.name "Your Name"` to set up a global username for all your repositories. Use `$ git config --global user.email "YourEmail@any.com"` to configure an email for your repositories.
 
-### 2 Basic Git Concepts
+## 2 Use GitHub from VS Code
+
+### 2.1 Create an Empty Project Folder
+
+Create an empty folder in your computer, say `git-demo`. Then run VS code and open the newly created `git-demo` as the root of your project workspace.
+
+### 2.2 Login to GitHub Account
+
+Right click the left activity bar of your VS Code Windwo, check the `Account` to display the account icon. Click the account icon and login to your GitHub Account.
+
+### 2.3 Create `.gitignore` File
+
+Create a `.gitignore` file in your project root folder (the folder where `.git` folder sits) to add filenames or filename patterns for files that git should ignore. For example, MacOS user should ignore the system-generated `.DS_Store`. Add the `.DS_Store` line to `.gitignore` will work.
+
+You can copy [a sample Python git igorefile](https://github.com/github/gitignore/blob/master/Python.gitignore) for your Python project and edit it to fit your needs. For example, add the `.DS_Store` line to the copied `.gitignore` file.
+
+### 2.4 Create and Edit Your Project Files
+
+Create the initial project files. You should commit and push your changes to GitHub frequently to not lose your changes.
+
+### 2.4 Publish to GitHub
+
+Then click the source control icon in the left of your VS Code window. If you don's see it, right click the left activity bar to enable it.
+
+![commit](images/github.png)
+
+It shows two buttons: `Initialize Repository` and `Publish to GitHub`. Click `Publish to GitHub` and you can see two options: a private repository or a a public repository. For class project, use the public repository. VS code creates a Git repository in both your GitHub account and in the local folder. You can check there is a hidden folder `.git` in the `git-demo` folder. The `.git` folder has all Git repository data, please don't touch it. In Mac OS terminal, use `ls -la` to see all hidden folders/files. In Windows Explorer, [setting showing hidden files](https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10) to see the hidden folder.
+
+### 2.5 Commit Locally
+
+Create a new file or make some changes, then click the soruce control icon in activity bar, you can see the changes in your repository. Add a message describing the change and click the checkmark icon on the top to commit the change to local repository.
+
+![commit](images/commit.png)
+
+### 2.5 Push to GitHub
+
+Then you should push local changes to your GitHub repository to have a safe stroage in cloud. There are two ways you can do it.
+
+![push](images/push.png)
+
+As show in the above picture, you can use the push menu icon or you can click the sync icon at the bottom status bar. There are two numbers and two arrows next to the sync icon: the number on the left of an up arrow shows how many commits in the GitHub that are not pulled down; the number on the left of the up arrow shows the number of commits not pushed up to GitHub.
+
+## 3 Resources
+
+- Document: [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
+- Vidoe: [How To Use GitHub with VS Code in 2020](https://youtu.be/OmX0o2iBVek)
+
+The following sections are for those who want to learn more or you want to troubleshoot GitHub issues.
+
+## 4 Basic Git Concepts
 
 Git keeps a history of your software changes by taking snapshots and store them in a `.git` directory of you project root folder. you can specify which files to be managed by a repository using `git add` command to **stage** file changes. The staging area is also called **cache** or **index**. You decide when to take a snapshot by issuing a `git commit` command. Git keeps all commit history and you can access any snapshot when you want.
 
@@ -26,34 +75,6 @@ The `git add` command and the `git commit` command work on a local repository. T
 Once you link a local repostiory with a remote repository, you can use `git push` to **push** changes to the remote repository or use `git pull` to **pull** changes made by others from the remote repository.
 
 ![Git local remote](./images/git-local-remote.png)
-
-## 3 Ingored Files/Folders
-
-Create a `.gitignore` file in your project root folder (the folder where `.git` folder sits) to add filenames or filename patterns for files that git should ignore. For node.js application, you don't want to check in installed NPM modules. Add the `node_modules/` to `.gitignore` will work.
-
-## 4 Recommended Git Workflow with VS Code
-
-You can perform basic git functions such as commit, push and pull within VS Code IDE -- this is much easy. The late part of [the VS Code video](https://youtu.be/fnPhJHN0jTE?t=1912) shows the Git operations built into the VS Code. The workflow now becomes the following:
-
-### Step 1: Create a Github Repository
-
-Create a new repository in Github. To add an appropriate `.gitignore` file, please select the "Node". Optionally, you can select a license to add a license copyright file and create a `README` file.
-
-### Step 2: Clone the Repository
-
-In your Github repoistory page, you can find the url. In your computer, open a terminal (`cmd` or `power shell` in Windows), use `git clone remote-repository-url` to clone the github repository to a folder in your local computer. The command will create a new folder named after the repository name.
-
-### Step 3: Use VS Code to open the cloned folder
-
-Use VS code IDE to open the cloned folder. Then work on this local repostiory. You can add new files, change existing files or delete unused files and the VS code shows the number of changed files.
-
-### Step 4: Stage and Commit Changes
-
-To stage and commit chagnes, click the VS code source control icon, the IDE is in source control mode. type in commit message and press enter to commit the changes. If it is the first, VS Code will ask you to confirm stage all changes, select `Always` stage changes and confirm the commit.
-
-### Step 5: Push to Github Repository
-
-When you click the source control icon, the IDE is in source control mode. Click the `...` icon on the top and it displays a list of source control commands, select `Push` to push the changes to GitHub repository. The first time you use the git operation, VS Code will prompt you for your GitHub account name and password.
 
 ## 5 Using Git Command Line
 
@@ -94,8 +115,3 @@ Use `git status` to check current status frequently.
 Use `git log` to check the history.
 
 use `git pull` to pull changes from remote repository made by other developers.
-
-## 6 Resources
-
-- Document: [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
-- vidoes: [How To Use GitHub with VS Code in 2020](https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi&index=3)

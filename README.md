@@ -12,7 +12,7 @@ It is a common practice to start with `0` in programming. This folder has the ma
 
 Eventually you should use GitHub to manage your source code -- it is how the professional programmers manage source code:
 
-- [git-and-github.md](./0-installation-setup/git-and-github.md): use GitHub to manage your software source code.
+- [Git and GitHub](./0-installation-setup/git-and-github.md): use GitHub to manage your software source code.
 
 Each computer has different applications/tools installed thus each computer is unique, and even more important, each person thinks differently. Programming is a brain activity and program code is primarily a communication medium for programmers. An efficient way to learn programming is to learn as a team.
 
