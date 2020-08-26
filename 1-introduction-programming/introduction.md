@@ -1,6 +1,6 @@
 # Introduction
 
-We explian how a program works and introduce concepts such as programming languages, compiler and interpreter.
+This note explains how a program works and introduce concepts such as programming languages, compiler and interpreter.
 
 ## How a Program Works
 
