@@ -46,13 +46,20 @@ Create a new file or make some changes, then click the soruce control icon in ac
 
 ![commit](images/commit.png)
 
+The changes are commited to the local repository in your computer. Actually they are in the `.git` folder.
+
 ### 2.5 Push to GitHub
 
-Then you should push local changes to your GitHub repository to have a safe stroage in cloud. There are two ways you can do it.
+You should push local changes to your GitHub repository frequently to have a safe stroage in cloud. There are two ways you can do it.
 
 ![push](images/push.png)
 
-As show in the above picture, you can use the push menu icon or you can click the sync icon at the bottom status bar. There are two numbers and two arrows next to the sync icon: the number on the left of an up arrow shows how many commits in the GitHub that are not pulled down; the number on the left of the up arrow shows the number of commits not pushed up to GitHub.
+As show in the above picture
+
+- you can use the push menu icon or
+- you can click the sync icon at the bottom status bar
+
+The sync icon is prefered because it only needs one click. There are two numbers and two arrows next to the sync icon: the number on the left of an up arrow shows how many commits in the GitHub that are not pulled down; the number on the left of the up arrow shows the number of commits not pushed up to GitHub.
 
 ## 3 Resources
 
