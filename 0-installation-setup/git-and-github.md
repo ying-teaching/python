@@ -66,7 +66,7 @@ The sync icon is prefered because it only needs one click. There are two numbers
 - Document: [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
 - Vidoe: [How To Use GitHub with VS Code in 2020](https://youtu.be/OmX0o2iBVek)
 
-The following sections are for those who want to learn more or you want to troubleshoot GitHub issues.
+The following sections are for those who want to learn more or need to troubleshoot GitHub issues.
 
 ## 4 Basic Git Concepts
 
