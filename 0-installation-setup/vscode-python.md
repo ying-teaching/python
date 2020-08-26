@@ -1,4 +1,4 @@
-# Use VS Code to Develop Python Programs
+# Install and Setup VS Code for Python Development
 
 ## Python Development Tools
 

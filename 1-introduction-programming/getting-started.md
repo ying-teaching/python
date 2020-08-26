@@ -1,4 +1,4 @@
-# Python in VS Code
+# Getting Started with Python in VS Code
 
 This tutorial is based on the [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial). It is revised to fit beginners.
 

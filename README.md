@@ -6,9 +6,9 @@ This repository introduce you to Python programming. Most people have fun in lea
 
 It is a common practice to start with `0` in programming. This folder has the markdown notes to install and configure your development tools. The notes have links to additional online learning resources.
 
-- [command-line.md](0-installation-setup/command-line.md): introduction of command line tool. Please read and learn this first if you don't know CLI. It is must-to-know for a programmer.
-- [install-python.md](0-installation-setup/install-python.md): how to install Python.
-- [Use VS Code to Develop Python Programs](./0-installation-setup/vscode-python.md): how to install and use Visual Studo Code (VS Code) to develop Python programs.
+- [Command Line Interface](0-installation-setup/command-line.md): introduction of command line tool. Please read and learn this first if you don't know CLI. It is must-to-know for a programmer.
+- [Install Python Interpreter](0-installation-setup/install-python.md): how to install Python.
+- [Install and setup VS Code for Python Development](./0-installation-setup/vscode-python.md): how to install and setup Visual Studo Code (VS Code) for Python development.
 
 Eventually you should use GitHub to manage your source code -- it is how the professional programmers manage source code:
 

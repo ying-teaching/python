@@ -1,4 +1,4 @@
-# Python 3 Installation
+# Install Python Interpreter
 
 If you are not an advanced user, please follow the instructions here to install the latest Python 3 software. Advanced users can install `Anaconda` -- it is not recommended for new developers because it requires more knowledge to use it.
 
