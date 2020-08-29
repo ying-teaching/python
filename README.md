@@ -31,8 +31,8 @@ The following files give an overview of programming development:
 This folder has Jupyter notebooks files that include both markdown and Python code. You can download the files and play with them.
 
 - [Hello World](2-basic-operations/hello-world.ipynb): Use `print` to say "hello world" and learn string and comment.
-- [Variable Assignment and Naming](2-basic-operations/variable-assignment-naming.ipynb): a notebook that introduces the variable concept, its naming conventions and assignment statement.
-- [Arithmetic](2-basic-operations/arithmatic.ipynb): perform arithmatic calculations.
+- [Variable Declaration and Naming](2-basic-operations/variable-assignment-naming.ipynb): a notebook that introduces the variable assignment and its naming conventions.
+- [Operations](2-basic-operations/operations.ipynb): perform arithmatic calculations.
 - [Reading Input](2-basic-operations/reading-input.pynb): reading input of different types.
 - [F-strings](2-basic-operations/f-strings.ipynb): reading input of different types.
 
