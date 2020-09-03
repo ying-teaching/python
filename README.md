@@ -26,7 +26,7 @@ The following files give an overview of programming development:
 - [Program Design](1-introduction-programming/program-design.md): the software development life cycle, flowcharts and pseudo-code.
 - [Getting Started with Python in VS Code](1-introduction-programming/getting-started.md): develop and run Pythin programs using VS Code.
 
-## 2. Basic Operations (TBD)
+## 2. Basic Concepts and Operations
 
 This folder has Jupyter notebooks files that include both markdown and Python code. You can download the files and play with them.
 
