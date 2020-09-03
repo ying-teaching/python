@@ -36,16 +36,16 @@ This folder has Jupyter notebooks files that include both markdown and Python co
 - [Reading Input](2-basic-operations/reading-input.pynb): reading input of different types.
 - [F-strings](2-basic-operations/f-strings.ipynb): reading input of different types.
 
-## 3. Control Statements (TBD)
+## 3. Decision Structure (TBD)
 
-## 4. Functions (TBD)
+## 4. Repetition Structure (TBD)
 
-## 5. Files and Exceptions (TBD)
+## 5. Functions (TBD)
 
-## 6. List and Tuples (TBD)
+## 6. Files and Exceptions (TBD)
 
-## 7. Dictionaries and Sets (TBD)
+## 7. List and Tuples (TBD)
 
-## 8. Processing Strings (TBD)
+## 8. Dictionaries and Sets (TBD)
 
-## 9. Advanced Data Processing (TBD)
+## 9. Processing Strings (TBD)
