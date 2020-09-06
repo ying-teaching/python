@@ -29,7 +29,7 @@ You call the `turtle.Turtle()` or `turtle.Pen()` to create an instance of `Turtl
 
 ```py
 import turtle
-pen = turtle.Pen()
+pen = turtle.Pen()  # same as turtle.Turtle()
 
 # To make the graphics stay in a non-ineractive execution
 turtle.done()
