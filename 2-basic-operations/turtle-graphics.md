@@ -51,9 +51,9 @@ As in a math class, the canvas is modeled after a **Cartesian coordinate system*
 
 ![coordinate](images/coordinate.png)
 
-## 4 Move and Draw
+## 4 Move
 
-Create a file `turtle-demo.py` in an empty folder (a good habit for a new project), open VS Code in the folder. You can type the following code and watch the drawing process to see the operations in action.
+Create a file `turtle-demo.py` in an empty folder (a good habit for a new project), open VS Code in the folder. You can type the following code and watch the drawing process to see the operations in action. You may want to add one move at a time.
 
 ```python
 import turtle
@@ -69,11 +69,86 @@ pen.forward(50)
 pen.left(90)
 pen.backward(100)
 pen.sety(50)
+pen.forward(150)
+
+# For heading: 0 - east, 90 - north, 180 - west, 270 - south
+pen.setheading(220)
 pen.forward(100)
 
-
-pen.goto(0, 0)
+pen.goto(30, 30)
+pen.home()
 
 # To make the graphics stay in a non-ineractive execution
 turtle.done()
 ```
+
+## 5 Draw
+
+- `pen.circle(50)`: draw a circle with a `50px` radius
+- `pen.dot(20, 'blue')`: draw a blue dot with size of `20px`.
+- `pen.shape('blank')`: don't show arrowhead.
+- `pen.up()`: not drawing when moving
+- `pen.down()`: drawing when moving
+- `pen.width(10)`: set width to 10px
+- `pen.color('brown')`: set pen color
+- `pen.write('hi', font=("Arial", 18, "normal"))`: write the text using the specified `font`. `write` takes multiple parameters, use parameter name `font` to specify provided argument.
+
+Demo code:
+
+```python
+import turtle
+
+pen = turtle.Pen()
+
+# a slow motion at speed 1. Speed 10 is the fastest
+pen.speed(1)
+pen.dot(20, 'blue')
+pen.circle(50)
+pen.width(10)
+pen.fd(50)
+pen.color('brown')
+pen.up()
+pen.fd(30)
+pen.down()
+pen.write('hi', font=('Arial', 18, 'normal'))
+pen.shape('blank')
+
+# To make the graphics stay in a non-ineractive execution
+turtle.done()
+```
+
+## 6 Getting Input
+
+The `turtle` module provide two input functions:
+
+- `turtle.textinput(title, prompt)`: pop up an input box for a string.
+- `turtle.numinput(title, prompt, default=None, minval=None, maxval=None)`: pop up an input box for a number. You can provide optinoal default value, minimum and maximum value. It asks you to input again if the number is out of range.
+
+```python
+import turtle
+
+DEFAULT_NUMBER = 1000
+MIN_NUMBER = 10
+MAX_NUMBER = 10_000
+
+turtle.bgcolor('blue')
+
+pen = turtle.Pen()
+
+num = turtle.numinput("Poker", "Your stakes:", DEFAULT_NUMBER, minval=MIN_NUMBER, maxval=MAX_NUMBER)
+
+pen.color('orange')
+pen.write(num, font=('Arial', 28, 'normal'))
+
+turtle.done()
+```
+
+In the above code, please distinguish two different types of calls: `turtle.bgcolor()`, `turtle.pen()`, `turtle.numinput()`, and `turtle.done()` are functions in the `turtle` module. `pen.color()` and `pen.write()` are methods of an instance/object of a `Turtle` class. The instance is bound to variable `pen`.
+
+It is a best practice to define constant values using meaningful variables names that use uppercase words seperated by underscore.
+
+## Document
+
+All the module, classes and operations used above are documente in [`turtle` - Turtle Grpahics](https://docs.python.org/3/library/turtle.html). The document documents the procedure functions thus it is not clear which methods can be used by `Pen`/`Turtle` class instances. As yo can see, VS Code can give contextual help.
+
+As always, there is no perfect document/help available, just try.
