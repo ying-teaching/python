@@ -105,10 +105,10 @@ pen.speed(1)
 pen.dot(20, 'blue')
 pen.circle(50)
 pen.width(10)
-pen.fd(50)
+pen.forward(50)
 pen.color('brown')
 pen.up()
-pen.fd(30)
+pen.forward(30)
 pen.down()
 pen.write('hi', font=('Arial', 18, 'normal'))
 pen.shape('blank')
@@ -147,8 +147,42 @@ In the above code, please distinguish two different types of calls: `turtle.bgco
 
 It is a best practice to define constant values using meaningful variables names that use uppercase words seperated by underscore.
 
-## Document
+## Query Turtle's State
+
+You can query the current states of a pen using methods such as `position`, `xcor`, `ycor`, `heading` and etc. The following is a demo:
+
+```python
+import turtle
+
+TEXT_FONT = ('Arial', 18, 'normal')
+
+pen = turtle.Pen()
+
+pen.forward(100)
+pen.left(90)
+pen.forward(100)
+
+postion = pen.position()
+pen.write(postion, font = TEXT_FONT)
+
+pen.goto(150, 150)
+x_coordinate = pen.xcor()
+y_coordinate = pen.ycor()
+coordinate = f'x: {x_coordinate}, y: {y_coordinate}'
+pen.write(coordinate, font = TEXT_FONT)
+
+pen.setheading(180)
+pen.forward(200)
+pen.write(pen.heading(), font=TEXT_FONT)
+
+# To make the graphics stay in a non-ineractive execution
+turtle.done()
+```
+
+## 8 Resources
 
 All the module, classes and operations used above are documente in [`turtle` - Turtle Grpahics](https://docs.python.org/3/library/turtle.html). The document documents the procedure functions thus it is not clear which methods can be used by `Pen`/`Turtle` class instances. As yo can see, VS Code can give contextual help.
+
+[The beginner's guide to Python turtle](https://realpython.com/beginners-guide-python-turtle/) is a good introduction.
 
 As always, there is no perfect document/help available, just try.

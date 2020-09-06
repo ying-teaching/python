@@ -38,6 +38,10 @@ This folder has Jupyter notebooks files that include both markdown and Python co
 - [Reading Input](2-basic-operations/reading-input.pynb): reading input of different types. [YouTube Video: Reading Input](https://youtu.be/5H09F6JFbIs)
 - [F-string](2-basic-operations/f-strings.ipynb): format string literals in different ways. [YouTube Video: Formatted String](https://youtu.be/fEGRLW_--Co)
 
+### Code Demo
+
+[Turtle Graphics](2-basic-operations/turtle-graphics.md)
+
 ## 3. Decision Structure (TBD)
 
 ## 4. Repetition Structure (TBD)
