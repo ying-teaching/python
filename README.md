@@ -38,11 +38,16 @@ This folder has Jupyter notebooks files that include both markdown and Python co
 - [Reading Input](2-basic-operations/reading-input.pynb): reading input of different types. [YouTube Video: Reading Input](https://youtu.be/5H09F6JFbIs)
 - [F-string](2-basic-operations/f-strings.ipynb): format string literals in different ways. [YouTube Video: Formatted String](https://youtu.be/fEGRLW_--Co)
 
-### Code Demo
+### 2.1 Code Demo
 
-[Turtle Graphics](2-basic-operations/turtle-graphics.md)
+[Turtle Graphics](2-basic-operations/turtle-graphics.md). It is a markdown file. We don't use a `.ipynb` file for lecture notes because the turtle graphics and Jupyter notebook are not integrated well.
 
-## 3. Decision Structure (TBD)
+## 3. Decision Structure
+
+This section introudce the conepts of control sturctures, boolean expression and three decision structures: `if`, `if-else` and `if-elif-else`.
+
+- [Boolean Expression](3-decision-structure/boolean-expression.ipynb)
+- [Decision Structure](3-decision-structure/decision-structure.ipynb)
 
 ## 4. Repetition Structure (TBD)
 
