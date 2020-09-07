@@ -1,8 +1,17 @@
 # Learn Python, for fun and profit
 
-This repository introduce you to Python programming. Most people have fun in learning Python and they can make big profit if they have big fun.
+This document repository introduces you to Python programming. Most people have fun in learning Python and they can make big profit if they have big fun.
 
-All lecture videos are uploaded to [Youtube PlayLists](https://www.youtube.com/channel/UC2uDA5EgdwxcmSHMZ1f4jvw/playlists).
+Unlike most textbooks or tutorials, we write this document with an important principle: teaching the professional way of Python programming. "Professional" means the best practices in Python programming used by professional programmers. Following is a short list of best practices we follow in this document:
+
+- Design with test cases before coding.
+- Follow the [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) and use VS Code PyLint tool to enforce the style.
+- No magic numbers.
+- Short functions/methods.
+- Design, code, test and debug incrementally.
+- Refactoring is part of development.
+
+All lecture videos are in [Youtube PlayLists](https://www.youtube.com/channel/UC2uDA5EgdwxcmSHMZ1f4jvw/playlists).
 
 ## 0. Installation and Setup
 
