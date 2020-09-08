@@ -36,7 +36,7 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [Reading Input](2-basic-operations/reading-input.pynb): reading input of different types. [YouTube Video: Reading Input](https://youtu.be/5H09F6JFbIs)
 - [F-string](2-basic-operations/formatted-string.ipynb): format string literals in different ways. [YouTube Video: Formatted String](https://youtu.be/fEGRLW_--Co)
 
-## Intermezzo 1: Turtle Graphics
+## Intermezzo 0: Turtle Graphics
 
 - [Turtle Graphics](intermezzo/turtle-graphics.md): introduce the built-in `turtle` module. It is a markdown file because the turtle graphics and Jupyter notebook are not integrated well.
 
