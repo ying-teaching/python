@@ -42,14 +42,14 @@ The followin is table of content. It is organzied based on topics, not on a text
 
 ## Section 3: Decision Structure
 
-- [Boolean Expression](3-decision-structure/boolean-expression.ipynb): introduce the control structure concepts and Boolean expressions. [YouTube Vidoe](https://youtu.be/BWH6Yj6rUyY).
-- [Decision Structure](3-decision-structure/decision-structure.ipynb): introduce the decision structure of if, else and elif. It also covers the important concept of code block. [YouTube Vidoe](https://youtu.be/uwuLu6t95ow).
+- [Boolean Expression](3-decision-structure/boolean-expression.ipynb): introduce the control structure concepts and Boolean expressions. [YouTube Video](https://youtu.be/BWH6Yj6rUyY).
+- [Decision Structure](3-decision-structure/decision-structure.ipynb): introduce the decision structure of if, else and elif. It also covers the important concept of code block. [YouTube Video](https://youtu.be/uwuLu6t95ow).
 
 ## Section 4: Repetition Structure
 
-- [While Loop](4-reptetition-structure/while-loop.ipynb): the while loop and `infinite` loop. [YouTube Vidoe](https://youtu.be/42MhKOvWtwc).
-- [For Loop](4-reptetition-structure/for-loop.ipynb): sequence of data times and `for` loop. [YouTube Vidoe](https://youtu.be/OLITHW_gXXo).
-- [Continue and Break](4-reptetition-structure/break-and-continue.ipynb): the `continue` and `break` statement. [YouTube Vidoe](https://youtu.be/oHAa0I1kbow).
+- [While Loop](4-reptetition-structure/while-loop.ipynb): the while loop and `infinite` loop. [YouTube Video](https://youtu.be/42MhKOvWtwc).
+- [For Loop](4-reptetition-structure/for-loop.ipynb): sequence of data times and `for` loop. [YouTube Video](https://youtu.be/OLITHW_gXXo).
+- [Continue and Break](4-reptetition-structure/break-and-continue.ipynb): the `continue` and `break` statement. [YouTube Video](https://youtu.be/oHAa0I1kbow).
 
 ## 5. Functions (TBD)
 
