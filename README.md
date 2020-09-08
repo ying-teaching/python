@@ -13,33 +13,22 @@ Unlike most textbooks or tutorials, we write this document with an important pri
 
 All lecture videos are in [Youtube PlayLists](https://www.youtube.com/channel/UC2uDA5EgdwxcmSHMZ1f4jvw/playlists).
 
-## 0. Installation and Setup
+The followin is table of content. It is organzied based on topics, not on a textbook chpater order. As a program, you count from `0`:
 
-It is a common practice to start with `0` in programming. This folder has the markdown notes to install and configure your development tools. The notes have links to additional online learning resources.
+## Section 0: Setup
 
 - [Command Line Interface](0-installation-setup/command-line.md): introduction of command line tool. Please read and learn this first if you don't know CLI. It is must-to-know for a programmer.
 - [Install Python Interpreter](0-installation-setup/install-python.md): how to install Python.
 - [Install and setup VS Code for Python Development](./0-installation-setup/vscode-python.md): how to install and setup Visual Studo Code (VS Code) for Python development.
-
-Eventually you should use GitHub to manage your source code -- it is how the professional programmers manage source code:
-
 - [Git and GitHub](0-installation-setup/git-and-github.md): use GitHub to manage your software source code. [YouTube Video: GitHub and GitHub](https://youtu.be/WUDzf_c2w0I).
 
-Each computer has different applications/tools installed thus each computer is unique, and even more important, each person thinks differently. Programming is a brain activity and program code is primarily a communication medium for programmers. An efficient way to learn programming is to learn as a team.
-
-If you have any issues and you have tried very hard but still cannot sovle it, please describe the detail information such as your Operating systems, actions you tried and screenshoot of errors etc to class discussion. You are also welcome to post learning resources, solutions of nasty issues to the team dicussion.
-
-## 1. Introduction to Programming
-
-The following files give an overview of programming development:
+## Section 1: Introduction to Programming
 
 - [Introduction](1-introduction-programming/introduction.md): how a computer runs programs, programming languages, compiler and interpreter. [YouTube Video: Introduction to Programming](https://youtu.be/4jJ9elnDTk0).
 - [Program Design](1-introduction-programming/program-design.md): the software development life cycle, flowcharts and pseudo-code.
 - [Getting Started with Python in VS Code](1-introduction-programming/getting-started.md): develop and run Pythin programs using VS Code. [YouTube Video: Python in VS Code](https://youtu.be/FMpb1oN5Jew).
 
-## 2. Basic Concepts and Operations
-
-This folder has Jupyter notebooks files that include both markdown and Python code. You can download the files and play with them.
+## Section 2: Basic Concepts and Operations
 
 - [Hello World](2-basic-operations/hello-world.ipynb): Using `print` to say "hello world" and learn string and comment. [YouTube Video: Hello World](https://youtu.be/gLDAJiWOmj8).
 - [Variable Declaration and Naming](2-basic-operations/variable-assignment-naming.ipynb): variable assignment and its naming conventions. [YouTube Video: variable assignment naming](https://youtu.be/j415LA6XROA).
@@ -47,18 +36,20 @@ This folder has Jupyter notebooks files that include both markdown and Python co
 - [Reading Input](2-basic-operations/reading-input.pynb): reading input of different types. [YouTube Video: Reading Input](https://youtu.be/5H09F6JFbIs)
 - [F-string](2-basic-operations/formatted-string.ipynb): format string literals in different ways. [YouTube Video: Formatted String](https://youtu.be/fEGRLW_--Co)
 
-### 2.1 Code Demo
+## Intermezzo 1: Turtle Graphics
 
-[Turtle Graphics](2-basic-operations/turtle-graphics.md). It is a markdown file. We don't use a `.ipynb` file for lecture notes because the turtle graphics and Jupyter notebook are not integrated well.
+- [Turtle Graphics](intermezzo/turtle-graphics.md): introduce the built-in `turtle` module. It is a markdown file because the turtle graphics and Jupyter notebook are not integrated well.
 
-## 3. Decision Structure
+## Section 3: Decision Structure
 
-This section introudce the conepts of control sturctures, boolean expression and three decision structures: `if`, `if-else` and `if-elif-else`.
+- [Boolean Expression](3-decision-structure/boolean-expression.ipynb): introduce the control structure concepts and Boolean expressions. [YouTube Vidoe](https://youtu.be/BWH6Yj6rUyY).
+- [Decision Structure](3-decision-structure/decision-structure.ipynb): introduce the decision structure of if, else and elif. It also covers the important concept of code block. [YouTube Vidoe](https://youtu.be/uwuLu6t95ow).
 
-- [Boolean Expression](3-decision-structure/boolean-expression.ipynb)
-- [Decision Structure](3-decision-structure/decision-structure.ipynb)
+## Section 4: Repetition Structure
 
-## 4. Repetition Structure (TBD)
+- [While Loop](4-reptetition-structure/while-loop.ipynb): the while loop and `infinite` loop. [YouTube Vidoe](https://youtu.be/42MhKOvWtwc).
+- [For Loop](4-reptetition-structure/for-loop.ipynb): sequence of data times and `for` loop. [YouTube Vidoe](https://youtu.be/OLITHW_gXXo).
+- [Continue and Break](4-reptetition-structure/break-and-continue.ipynb): the `continue` and `break` statement. [YouTube Vidoe](https://youtu.be/oHAa0I1kbow).
 
 ## 5. Functions (TBD)
 
