@@ -47,9 +47,9 @@ The followin is table of content. It is organzied based on topics, not on a text
 
 ## Section 4: Repetition Structure
 
-- [While Loop](4-reptition-structure/while-loop.ipynb): the while loop and `infinite` loop. [YouTube Video](https://youtu.be/42MhKOvWtwc).
+- [While Loop](4-repetition-structure/while-loop.ipynb): the while loop and `infinite` loop. [YouTube Video](https://youtu.be/42MhKOvWtwc).
 - [For Loop](4-repetition-structure/for-loop.ipynb): sequence of data times and `for` loop. [YouTube Video](https://youtu.be/OLITHW_gXXo).
-- [Continue and Break](4-reptition-structure/break-and-continue.ipynb): the `continue` and `break` statement. [YouTube Video](https://youtu.be/oHAa0I1kbow).
+- [Continue and Break](4-repetition-structure/break-and-continue.ipynb): the `continue` and `break` statement. [YouTube Video](https://youtu.be/oHAa0I1kbow).
 
 ## 5. Functions (TBD)
 
