@@ -144,7 +144,7 @@ def do_homework():
 
 Some functions perform operations without returning a value, they are called `void functions`. The `void` means **nothing**. The above function that prints a message is a void function. The function `exit()` takes no argument and is a void function. It exits the program execution.
 
-Many functions perform some computation and return a value as its result. You use the `return expression` in a function to return a value and complete the function. For example:
+Many functions perform some computation and return a value as its result. These are `value-returning` functions. You use the `return expression` in a function to return a value and complete the function. For example:
 
 ```python
 def add(number1, number2):
@@ -179,6 +179,23 @@ def isOdd(number):
 print(isOdd(5))
 print(isOdd(8))
 ```
+
+### 2.5 Retruning Multiple Values
+
+It is possible to return multiple values using the `return` statement. You list the variables to be returned after the `reture` keyword and use `,` to separate the multiple values. The following is an example:
+
+```python
+def get_name():
+    first = input('First name? ')
+    second = input('Second name? ')
+    return first, second
+
+first_name, second_name = get_name()
+
+print(first_name, second_name)
+```
+
+As you can see, you use multiple variables, seprated by `,` to retrieve the multiple returning values.
 
 ## 3 Calling Function
 
