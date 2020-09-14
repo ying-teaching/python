@@ -142,9 +142,9 @@ def do_homework():
 
 ### 2.4 Returning Value
 
-Some functions perform operations without returning a value, they are called `void functions`. The `void` means **nothing**. The above function that prints a message is a void function.
+Some functions perform operations without returning a value, they are called `void functions`. The `void` means **nothing**. The above function that prints a message is a void function. The function `exit()` takes no argument and is a void function. It exits the program execution.
 
-Many functions perform some computation and return a value as its result. You use the `return express` as in a function to return a value and complete the function. For example:
+Many functions perform some computation and return a value as its result. You use the `return expression` in a function to return a value and complete the function. For example:
 
 ```python
 def add(number1, number2):
@@ -168,7 +168,7 @@ print(isOdd(5))
 print(isOdd(8))
 ```
 
-Whenever Python executes a `return` statement, it completes the current function and returns its expression value. In the above code, the `print('unreachable')` is unreachable because both branches of the `if` statement has a `return` statement.
+Whenever Python executes a `return` statement, it **completes** the current function and returns its expression value. In the above code, the `print('unreachable')` is unreachable because both branches of the `if` statement has a `return` statement.
 
 Actually, the above code is not a good example because `number % 2 == 1` is a boolean expression and can be returned directly. The above code can be simplified as:
 
@@ -192,7 +192,7 @@ def sayHi():
 sayHi()
 ```
 
-To call a function that has parameters, you need to pass an argument for each parameter, in the same order as they are defiend. For example:
+To call a function that has parameters, you need to pass an argument for each parameter in the parenthese, in the same order as they are defiend. These arguments are called `positional arguments`. For example:
 
 ```python
 def greet(first_name, last_name):
@@ -201,7 +201,7 @@ def greet(first_name, last_name):
 greet('Alicia', 'Keys')
 ```
 
-You can use the parameter name to assign an argument. This is a so-called `keyword argument`. You don't need to follow the order as the defined in the function header. For example, you can call the above functions as one of the following:
+You can use the parameter name to pass an argument to the function call. This is a so-called `keyword argument`. You don't need to follow the order as defined in the function header. For example, you can call the above functions as one of the following:
 
 - `greet(first_name='Alicia', last_name='Keys')`
 - `greet(last_name='Keys', first_name='Alicia')`
@@ -220,7 +220,7 @@ greet('Bob', 'Dylan', 'Hi')
 
 The default arguments must be at the end of the parameter list.
 
-If you use a keyword argument, the rest argument must be keyword argument.
+If you use a keyword argument, it must be after positional arguments.
 
 ```python
 def greet(first_name, last_name, prefix='Hello'):
@@ -229,3 +229,5 @@ def greet(first_name, last_name, prefix='Hello'):
 greet(prefix='Hi', first_name='Elton', last_name='John')
 greet('Alicia', prefix='Hi', last_name='Keys')
 ```
+
+Positional arguments cannot follow keyward arguments, they must be passed before keyward arguments. A function call `greet('Alicia', prefix='Hi', 'Keys')` causes a an error: `SyntaxError: positional argument follows keyword argument`.
