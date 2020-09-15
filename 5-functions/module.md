@@ -122,9 +122,75 @@ def diameter(radius):
 
 # for testing
 def main():
-    assert 6 = diameter(3)
+    assert 6 == diameter(3)
 
 main()
 ```
 
-You want to run the `main` function in the command line but don't want to run the test code when a module is imported into another file.
+You want to run the `main` function in the command line but don't want to run the test code when a module is imported into another file. However, the above code will run `main()` when it is imported. What you need is a way to find out if a module is imported or is executed from a command line.
+
+Python provides a mechanims to distinguish the two execution modes. When the Python interpreter processes a module, it creates a special variable named `__name__`. It is a convention in Python that variable names started with `_` or `__` are used by the system. The `__name_` has two possible values:
+
+- If a module is imported by another module, its `__name__` has a value of the module name, the filename without the `.py` postfix. For example, if the `circle` module was imported, its `__name__` has a value of `circle`.
+- If it is executed by Python interprete in command line, the `__name__` has a value of `__main__`.
+
+Therefore we can change the above code as the following:
+
+```python
+# circle.py
+import constants
+
+def diameter(radius):
+    return radius * 2
+
+# for testing
+def main():
+    print('Test diameter function')
+    assert 6 == diameter(3)
+
+if __name__ == '__main__':
+    main()
+```
+
+Try to run the file in a command line and import it from another module. You should see the test output in commandline but not in the imported file.
+
+## 6 `random` and `math`
+
+The `random` and `math` are commonly used built-in modules. You import them and call their functions. The command functions are:
+
+### 6.1 `random` Module
+
+Follwing are some commonly used functions in `random` module. Check the [`random` docuemnt](https://docs.python.org/3/library/random.html) for more functions.
+
+- `random.randint(m, n)`: generated a random integer number between `m` and `n`, inclusively.
+- `random.random()`: generate a random float number betwen `0.0` and `1.0`, exclusively.
+- `random.random(x, y)`: generate a random float number between `x` and `y`, exclusively.
+- `random.seed(n)`: set the random generator with a seed `n`. For the same `n`, it genereates a fixed sequence of numbers.
+
+Below is an exmple:
+
+```python
+import random
+
+MIN = 1
+MAX = 6
+SEED = 42
+
+# after set a seed, it generates a fix sequnce in multiple run
+# to see the difference, comment the following line and run multiple times
+random.seed(SEED)
+
+for count in range(10):
+    number = random.randint(MIN, MAX)
+    print(f'random number is {number}')
+```
+
+### 6.2 `math` Module
+
+Follwing are some commonly used functions in `math` module. Check the [`math` docuemnt](https://docs.python.org/3/library/math.html#module-math) for more functions.
+
+- `math.pi`: the mathematical constant π = 3.141592…, to available precision.
+- `math.e`: the mathematical constant e = 2.718281…, to available precision.
+- `math.sqrt(x)`: return the square root of `x`.
+- `math.ceil(x)`: return the ceiling of `x`, the smallest integer greater than or equal to x.
+- `math.fabs(x)`: return the absolute value of `x`.
