@@ -1,10 +1,10 @@
 # Function Concepts
 
-This section first explains what is a fucntion and the two reasons you want to use functions: code structure and code reuse. Then it describes how to define and call functions.
+This section first explains what is a function and the two reasons you want to use functions: code structure and code reuse. Then it describes how to define and call functions.
 
 ## 1 What and Why
 
-A function is a group of statements that performs a specific task. Though there is no limit in the number of statements that you can write inside a function, tt is important that a function consists of a group of closely related statemetns to serve a single purpose. It will make your code easy to read and maintain.
+A function is a group of statements that performs a specific task. Though there is no limit in the number of statements that you can write inside a function, it is important that a function consists of a group of closely related statements to serve a single purpose. It will make your code easy to read and maintain.
 
 Why you need functions? A simple anwser is divide and conquer. Programmers use functions to organize and reuse code. Instead of writing a long list of statements of a complex application, you can divide the application into a set of subtasks such that each task is relatively easy to be solved.
 
@@ -118,11 +118,11 @@ def greet(name, prefix = 'Hello')
 
 When you call `greet` without giving an argument for `prefix`, it uses the `'Hello'` as the arugment value.
 
-### 2.2 Docstring for Functions
+### 2.3 Docstring for Functions
 
 Except for trivial functions, you should write a **docstring** for the function. It can be a single line docstring, as shown in the first examples, or it can be a multi-line docstring: a summary line, followed by a blank line and detail description.
 
-### 2.3 Function Body
+### 2.4 Function Body
 
 The function body is the code block indented (4 spaces, per Python coding style) below the function header. The statements in the function body are just regular statements. You can use all control statements (`if`, `for`, and `while`) in the fucntion body.
 
@@ -143,7 +143,7 @@ def greet(name, prefix = 'Hello')
 print('Done')
 ```
 
-### 2.4 The `pass` Keyword
+### 2.5 The `pass` Keyword
 
 When you design a porgram, you divide your application into several functions but don't know the implementation details for some of you functions. You can use the `pass` keyword as a temporary function body. You replace it with real code when you are ready to implement it.
 
@@ -152,7 +152,7 @@ def do_homework():
     pass
 ```
 
-### 2.5 Returning Value
+### 2.6 Returning Value
 
 Some functions perform operations without returning a value, they are called `void functions`. The `void` means **nothing**. The above function that prints a message is a void function. The function `exit()` takes no argument and is a void function. It exits the program execution.
 
@@ -192,7 +192,7 @@ print(isOdd(5))
 print(isOdd(8))
 ```
 
-### 2.5 Retruning Multiple Values
+### 2.7 Retruning Multiple Values
 
 It is possible to return multiple values using the `return` statement. You list the variables to be returned after the `reture` keyword and use `,` to separate the multiple values. The following is an example:
 
