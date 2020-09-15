@@ -59,7 +59,7 @@ main()
 
 ## 3 `from` and `import`
 
-There is another way to import one or more specific functions using the `from moduel_name import function1, function2` statement.
+There is another way to import one or more specific functions using the `from moduel_name import function1, function2` statement. Once imported, these functions call be used without the module prefix.
 
 For example, the `main.py` file can be written as the following:
 
@@ -133,7 +133,7 @@ You want to run the `main` function in the command line but don't want to run th
 
 Python provides a mechanims to distinguish the two execution modes. When the Python interpreter processes a module, it creates a special variable named `__name__`. It is a convention in Python that variable names started with `_` or `__` are used by the system. The `__name_` has two possible values:
 
-- If a module is imported by another module, its `__name__` has a value of the module name, the filename without the `.py` postfix. For example, if the `circle` module was imported, its `__name__` has a value of `circle`.
+- If a module is imported by another module, its `__name__` has a value of the module name, i.e., the filename without the `.py` postfix. For example, if the `circle` module was imported, its `__name__` has a value of `circle`.
 - If it is executed by Python interprete in command line, the `__name__` has a value of `__main__`.
 
 Therefore we can change the above code as the following:
@@ -158,7 +158,7 @@ Try to run the file in a command line and import it from another module. You sho
 
 ## 6 `random` and `math`
 
-The `random`, `math` and `statistics` are commonly used built-in modules. You import them and call their functions. The command functions are:
+The `random`, `math` and `statistics` are commonly used built-in modules. You import them and call their functions.
 
 ### 6.1 `random` Module
 
