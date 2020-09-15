@@ -158,7 +158,7 @@ Try to run the file in a command line and import it from another module. You sho
 
 ## 6 `random` and `math`
 
-The `random` and `math` are commonly used built-in modules. You import them and call their functions. The command functions are:
+The `random`, `math` and `statistics` are commonly used built-in modules. You import them and call their functions. The command functions are:
 
 ### 6.1 `random` Module
 
@@ -190,10 +190,20 @@ for count in range(10):
 
 ### 6.2 `math` Module
 
-Follwing are some commonly used functions in `math` module. Check the [`math` docuemnt](https://docs.python.org/3/library/math.html#module-math) for more functions.
+Follwing are some commonly used functions in `math` module. Check the [`math` docuemnt](https://docs.python.org/3/library/math.html) for more functions.
 
 - `math.pi`: the mathematical constant π = 3.141592…, to available precision.
 - `math.e`: the mathematical constant e = 2.718281…, to available precision.
 - `math.sqrt(x)`: return the square root of `x`.
 - `math.ceil(x)`: return the ceiling of `x`, the smallest integer greater than or equal to x.
 - `math.fabs(x)`: return the absolute value of `x`.
+
+### 6.3 `statistics` Module
+
+Follwing are some commonly used functions in `statistics` module. Check the [`statistics` docuemnt](https://docs.python.org/3/library/statistics.html) for more functions. The `data` parameter in the following examples is a sequence of data such as a list or a range.
+
+- `statistics.mean(data)`: the mean of data.
+- `statistics.median(data)`: the median (middle value) of data.
+- `statistics.stdev(data)`: the standard deviation of data.
+
+For example, `statistics.mean([1, 2, 3, 4, 4])` returns a value of `2.8`.
