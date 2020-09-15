@@ -64,3 +64,5 @@ The followin is table of content. It is organzied based on topics, not on a text
 ## Section 8: Dictionaries and Sets (TBD)
 
 ## Section 9: Processing Strings (TBD)
+
+## Section 10: Numeric Processing (TBD)
