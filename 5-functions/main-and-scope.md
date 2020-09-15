@@ -4,7 +4,7 @@ This section introduces the `main` function and varaible scopes.
 
 ## 1 `main` Function
 
-There is a convention in Python coding: you want to use the `main` function name as the entry point of a program. A non-trivial program has many functions, however, there must be a function working as the entry point of the program. It is common to use `main` as the name of the start-up function. The `main` contains the mainline logic of a programthat call other functions to perform top level tasks. Each top level task may call other functions to perform subtasks. Following is an example of function organization.
+There is a convention in Python coding: you want to use the `main` function name as the entry point of a program. A non-trivial program has many functions, however, there must be a function working as the entry point of the program. It is common to use `main` as the name of the start-up function. The `main` contains the mainline logic of a programthat calls other functions to perform top level tasks. Each top level task may call other functions to perform subtasks. Following is an example of function organization.
 
 ![structure](images/structure.png)
 
@@ -40,7 +40,7 @@ def main():
 main()
 ```
 
-The function parameters are local variables. You can use them inside the function as a locally defined variables. Assigning a parameter to another value doesn't affect the corresponding argument.
+The function parameters are local variables. You can use them inside the function as locally defined variables. Assigning a parameter to another value doesn't affect the corresponding argument.
 
 ```python
 def main():
