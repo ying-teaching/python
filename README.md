@@ -51,7 +51,7 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [For Loop](4-repetition-structure/for-loop.ipynb): sequence of data times and `for` loop. [YouTube Video](https://youtu.be/OLITHW_gXXo).
 - [Continue and Break](4-repetition-structure/break-and-continue.ipynb): the `continue` and `break` statement. [YouTube Video](https://youtu.be/oHAa0I1kbow).
 
-## 5. Functions
+## Section 5: Functions
 
 - [Function Concepts](5-functions/function-concepts.md): function concept, definition and call.
 - [`main` and Scope](5-functions/main-and-scope.md): the `main` function and variable scopes.
