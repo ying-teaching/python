@@ -78,6 +78,8 @@ main()
 
 Python allows you to rename a function using the `as` keyword in importing. For example: `from circle import area as calcuate_area`. Then you can use the renamed function name.
 
+A wildcard syntax `from circle import *` allows you to use all functions defined in the `circle` module directly without the `circle.` prefix. Be careful because it may import too many functions. It is not recommended.
+
 ```python
 # main.py
 from circle import area as calcuate_area
@@ -110,5 +112,19 @@ However, if you import a file multiple times, Python only executes it once.
 ## 5 Conditionally Execute `main`
 
 In Python, it is common to define a `main` function in a module that is used to run testing code.
+
+```python
+# circle.py
+import constants
+
+def diameter(radius):
+    return radius * 2
+
+# for testing
+def main():
+    assert 6 = diameter(3)
+
+main()
+```
 
 You want to run the `main` function in the command line but don't want to run the test code when a module is imported into another file.
