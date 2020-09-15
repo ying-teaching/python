@@ -76,7 +76,7 @@ def main():
 main()
 ```
 
-Python allows you to rename a function using the `as` keyword in importing. For example: `from circle import area as calcuate_area`. Then you can use the renamed function name.
+When you import a specific function, Python allows you to rename a function using the `as` keyword. For example: `from circle import area as calcuate_area`. Then you can use the renamed function name.
 
 A wildcard syntax `from circle import *` allows you to use all functions defined in the `circle` module directly without the `circle.` prefix. Be careful because it may import too many functions. It is not recommended.
 
@@ -164,7 +164,8 @@ The `random` and `math` are commonly used built-in modules. You import them and 
 
 Follwing are some commonly used functions in `random` module. Check the [`random` docuemnt](https://docs.python.org/3/library/random.html) for more functions.
 
-- `random.randint(m, n)`: generated a random integer number between `m` and `n`, inclusively.
+- `random.randint(m, n)`: generate a random integer number between `m` and `n`, inclusively.
+- `random.randrange(m, n)`: generate a random integer between `m` and `n-1`.
 - `random.random()`: generate a random float number betwen `0.0` and `1.0`, exclusively.
 - `random.random(x, y)`: generate a random float number between `x` and `y`, exclusively.
 - `random.seed(n)`: set the random generator with a seed `n`. For the same `n`, it genereates a fixed sequence of numbers.

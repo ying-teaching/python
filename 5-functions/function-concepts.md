@@ -27,7 +27,7 @@ For example, following is a list of operations that a robot performs:
 
 If you use two functions, the code will be
 
-1. leave house (this function has the statements 1 to 5)
+1. leave home (this function has the statements 1 to 5)
 2. drive to shcool (this function has the statements 6 to 10)
 
 The functional version is easy to write and easy to understand. Another huge benefit is that a function name summarizes the task. It is easy to understand the two function calls if you don't care about the implementation details. You can image the pain when you have to figure out the purpose of 1,000 lines of code.
@@ -55,6 +55,7 @@ The syntax to define a function is rather simple in Python. Following are exampl
 ```python
 # define a function: no parameter, no retrun value
 def function_name1():
+    """Document for this function."""
     statement
     statement
     ...
@@ -62,12 +63,19 @@ def function_name1():
 
 # define a function: two parameters, no retrun value
 def function_name2(parameter1, parameter2):
+    """Document for this function."""
     statement
     statement
     ...
 
 # define a function: two parameters, has a retrun value
 def function_name3(parameter1, parameter2):
+    """
+    Summary for this function followed by a blank line.
+
+    Detail description about the input, process and output
+    ofof the function.
+    """
     statement
     statement
     ...
@@ -110,7 +118,11 @@ def greet(name, prefix = 'Hello')
 
 When you call `greet` without giving an argument for `prefix`, it uses the `'Hello'` as the arugment value.
 
-### 2.2 Function Body
+### 2.2 Docstring for Functions
+
+Except for trivial functions, you should write a **docstring** for the function. It can be a single line docstring, as shown in the first examples, or it can be a multi-line docstring: a summary line, followed by a blank line and detail description.
+
+### 2.3 Function Body
 
 The function body is the code block indented (4 spaces, per Python coding style) below the function header. The statements in the function body are just regular statements. You can use all control statements (`if`, `for`, and `while`) in the fucntion body.
 
@@ -131,7 +143,7 @@ def greet(name, prefix = 'Hello')
 print('Done')
 ```
 
-### 2.3 The `pass` Keyword
+### 2.4 The `pass` Keyword
 
 When you design a porgram, you divide your application into several functions but don't know the implementation details for some of you functions. You can use the `pass` keyword as a temporary function body. You replace it with real code when you are ready to implement it.
 
@@ -140,7 +152,7 @@ def do_homework():
     pass
 ```
 
-### 2.4 Returning Value
+### 2.5 Returning Value
 
 Some functions perform operations without returning a value, they are called `void functions`. The `void` means **nothing**. The above function that prints a message is a void function. The function `exit()` takes no argument and is a void function. It exits the program execution.
 
@@ -196,6 +208,8 @@ print(first_name, second_name)
 ```
 
 As you can see, you use multiple variables, seprated by `,` to retrieve the multiple returning values.
+
+The statement `return first, second` actaully returns a data type of `tuple`. Python uses the syntax `(e1, e2, e3,...)` to represent a tuple that have multiple elements. The `return first, second` can be written as `return (first, seond)`. We will cover tuple in later sections.
 
 ## 3 Calling Function
 
