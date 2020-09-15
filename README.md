@@ -57,10 +57,10 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [`main` and Scope](5-functions/main-and-scope.md): the `main` function and variable scopes.
 - [Module](5-functions/module.md): module concepts and built-in modules.
 
-## 6. Files and Exceptions (TBD)
+## Section 6: Files and Exceptions (TBD)
 
-## 7. List and Tuples (TBD)
+## Section 7: List and Tuples (TBD)
 
-## 8. Dictionaries and Sets (TBD)
+## Section 8: Dictionaries and Sets (TBD)
 
-## 9. Processing Strings (TBD)
+## Section 9: Processing Strings (TBD)
