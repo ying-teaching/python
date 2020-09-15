@@ -127,6 +127,8 @@ def main():
 main()
 ```
 
+The `assert` is a Python keyword that checks the following boolean expression. If the expression is true, nothing happen. If the expression is false, it reports an error message. You often use an assertion when you want to test a function.
+
 You want to run the `main` function in the command line but don't want to run the test code when a module is imported into another file. However, the above code will run `main()` when it is imported. What you need is a way to find out if a module is imported or is executed from a command line.
 
 Python provides a mechanims to distinguish the two execution modes. When the Python interpreter processes a module, it creates a special variable named `__name__`. It is a convention in Python that variable names started with `_` or `__` are used by the system. The `__name_` has two possible values:
