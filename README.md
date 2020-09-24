@@ -33,7 +33,7 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [Hello World](2-basic-operations/hello-world.ipynb): Using `print` to say "hello world" and learn string and comment. [YouTube Video: Hello World](https://youtu.be/gLDAJiWOmj8).
 - [Variable Declaration and Naming](2-basic-operations/variable-assignment-naming.ipynb): variable assignment and its naming conventions. [YouTube Video: variable assignment naming](https://youtu.be/j415LA6XROA).
 - [Types and Operations](2-basic-operations/types-and-operations.ipynb): data types and operations. [YouTube Video: Types and Operations](https://youtu.be/HopGmJKTTE4)
-- [Reading Input](2-basic-operations/reading-input.pynb): reading input of different types. [YouTube Video: Reading Input](https://youtu.be/5H09F6JFbIs)
+- [Reading Input](2-basic-operations/reading-input.ipynb): reading input of different types. [YouTube Video: Reading Input](https://youtu.be/5H09F6JFbIs)
 - [F-string](2-basic-operations/formatted-string.ipynb): format string literals in different ways. [YouTube Video: Formatted String](https://youtu.be/fEGRLW_--Co)
 
 ## Intermezzo 0: Turtle Graphics
