@@ -53,9 +53,9 @@ The followin is table of content. It is organzied based on topics, not on a text
 
 ## Section 5: Functions
 
-- [Function Concepts](5-functions/function-concepts.md): function concept, definition and call.
-- [`main` and Scope](5-functions/main-and-scope.md): the `main` function and variable scopes.
-- [Module](5-functions/module.md): module concepts and built-in modules.
+- [Function Concepts](5-functions/function-concepts.md): function concept, definition and call. [YouTube Video](https://youtu.be/BV2AE2lmSq4)
+- [`main` and Scope](5-functions/main-and-scope.md): the `main` function and variable scopes. [YouTube Video](https://youtu.be/rXF1BgkU5qs)
+- [Module](5-functions/module.md): module concepts and built-in modules. [YouTube Video](https://youtu.be/Q8GHvsXhmIQ)
 
 ## Section 6: Files and Exceptions (TBD)
 
