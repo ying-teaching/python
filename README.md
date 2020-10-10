@@ -62,7 +62,7 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [Read and Write](6-files/read-write.ipynb): read and write files.
 - [Record and Operation](6-files/record-and-operation.ipynb): record and other file operations.
 
-## [Section 7: List and Tuples (TBD)](7-exceptions/README.md)
+## [Section 7: List and Tuples (TBD)](./7-exceptions/)
 
 - [Errors and Exceptions](7-exceptions/errors-and-exceptions.ipynb): program errors and exceptions.
 - [Handling Exception](7-exceptions/handling-exception.ipynb): handling program exception.
