@@ -57,18 +57,18 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [`main` and Scope](5-functions/main-and-scope.md): the `main` function and variable scopes. [YouTube Video](https://youtu.be/rXF1BgkU5qs)
 - [Module](5-functions/module.md): module concepts and built-in modules. [YouTube Video](https://youtu.be/Q8GHvsXhmIQ)
 
-## [Section 6: Files and Exceptions (TBD)](6-files/)
+## [Section 6: Files(TBD)](6-files/)
 
 - [Read and Write](6-files/read-write.ipynb): read and write files.
 - [Record and Operation](6-files/record-and-operation.ipynb): record and other file operations.
 
-## [Section 7: List and Tuples (TBD)](7-exceptions/)
+## [Section 7: Exceptions (TBD)](7-exceptions/)
 
 - [Errors and Exceptions](7-exceptions/errors-and-exceptions.ipynb): program errors and exceptions.
 - [Handling Exception](7-exceptions/handling-exception.ipynb): handling program exception.
 
-## Section 8: Dictionaries and Sets (TBD)
+## [Section 8: List and Tuples (TBD)](8-list-and-tuples/)
 
-## Section 9: Processing Strings (TBD)
+## [Section 9: Dictionaries and Sets (TBD)](9-dict-and-set/)
 
-## Section 10: Numeric Processing (TBD)
+## [Section 10: Numeric Processing (TBD)](10-numeric/)
