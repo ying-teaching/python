@@ -59,7 +59,13 @@ The followin is table of content. It is organzied based on topics, not on a text
 
 ## Section 6: Files and Exceptions (TBD)
 
+- [Read and Write](6-files/read-write.ipynb): read and write files.
+- [Record and Operation](6-files/record-and-operation.ipynb): record and other file operations.
+
 ## Section 7: List and Tuples (TBD)
+
+- [Errors and Exceptions](7-exceptions/errors-and-exceptions.ipynb): program errors and exceptions.
+- [Handling Exception](7-exceptions/handling-exception.ipynb): handling program exception.
 
 ## Section 8: Dictionaries and Sets (TBD)
 
