@@ -15,20 +15,20 @@ All lecture videos are in [Youtube PlayLists](https://www.youtube.com/channel/UC
 
 The followin is table of content. It is organzied based on topics, not on a textbook chpater order. As a program, you count from `0`:
 
-## Section 0: Setup
+## [Section 0: Setup](0-installation-setup/README.md)
 
 - [Command Line Interface](0-installation-setup/command-line.md): introduction of command line tool. Please read and learn this first if you don't know CLI. It is must-to-know for a programmer.
 - [Install Python Interpreter](0-installation-setup/install-python.md): how to install Python.
 - [Install and setup VS Code for Python Development](./0-installation-setup/vscode-python.md): how to install and setup Visual Studo Code (VS Code) for Python development.
 - [Git and GitHub](0-installation-setup/git-and-github.md): use GitHub to manage your software source code. [YouTube Video: GitHub and GitHub](https://youtu.be/WUDzf_c2w0I).
 
-## Section 1: Introduction to Programming
+## [Section 1: Introduction to Programming](1-introduction-programming/README.md)
 
 - [Introduction](1-introduction-programming/introduction.md): how a computer runs programs, programming languages, compiler and interpreter. [YouTube Video: Introduction to Programming](https://youtu.be/4jJ9elnDTk0).
 - [Program Design](1-introduction-programming/program-design.md): the software development life cycle, flowcharts and pseudo-code.
 - [Getting Started with Python in VS Code](1-introduction-programming/getting-started.md): develop and run Pythin programs using VS Code. [YouTube Video: Python in VS Code](https://youtu.be/FMpb1oN5Jew).
 
-## Section 2: Basic Concepts and Operations
+## [Section 2: Basic Concepts and Operations](2-basic-operations/README.md)
 
 - [Hello World](2-basic-operations/hello-world.ipynb): Using `print` to say "hello world" and learn string and comment. [YouTube Video: Hello World](https://youtu.be/gLDAJiWOmj8).
 - [Variable Declaration and Naming](2-basic-operations/variable-assignment-naming.ipynb): variable assignment and its naming conventions. [YouTube Video: variable assignment naming](https://youtu.be/j415LA6XROA).
@@ -40,29 +40,29 @@ The followin is table of content. It is organzied based on topics, not on a text
 
 - [Turtle Graphics](intermezzo/turtle-graphics.md): introduce the built-in `turtle` module. It is a markdown file because the turtle graphics and Jupyter notebook are not integrated well.
 
-## Section 3: Decision Structure
+## [Section 3: Decision Structure](3-decision-structure/README.md)
 
 - [Boolean Expression](3-decision-structure/boolean-expression.ipynb): introduce the control structure concepts and Boolean expressions. [YouTube Video](https://youtu.be/BWH6Yj6rUyY).
 - [Decision Structure](3-decision-structure/decision-structure.ipynb): introduce the decision structure of if, else and elif. It also covers the important concept of code block. [YouTube Video](https://youtu.be/uwuLu6t95ow).
 
-## Section 4: Repetition Structure
+## [Section 4: Repetition Structure](4-repetition-structure/README.md)
 
 - [While Loop](4-repetition-structure/while-loop.ipynb): the while loop and `infinite` loop. [YouTube Video](https://youtu.be/42MhKOvWtwc).
 - [For Loop](4-repetition-structure/for-loop.ipynb): sequence of data times and `for` loop. [YouTube Video](https://youtu.be/OLITHW_gXXo).
 - [Continue and Break](4-repetition-structure/break-and-continue.ipynb): the `continue` and `break` statement. [YouTube Video](https://youtu.be/oHAa0I1kbow).
 
-## Section 5: Functions
+## [Section 5: Functions](5-functions/README.md)
 
 - [Function Concepts](5-functions/function-concepts.md): function concept, definition and call. [YouTube Video](https://youtu.be/BV2AE2lmSq4)
 - [`main` and Scope](5-functions/main-and-scope.md): the `main` function and variable scopes. [YouTube Video](https://youtu.be/rXF1BgkU5qs)
 - [Module](5-functions/module.md): module concepts and built-in modules. [YouTube Video](https://youtu.be/Q8GHvsXhmIQ)
 
-## Section 6: Files and Exceptions (TBD)
+## [Section 6: Files and Exceptions (TBD)](6-files/README.md)
 
 - [Read and Write](6-files/read-write.ipynb): read and write files.
 - [Record and Operation](6-files/record-and-operation.ipynb): record and other file operations.
 
-## Section 7: List and Tuples (TBD)
+## [Section 7: List and Tuples (TBD)](7-exceptions/README.md)
 
 - [Errors and Exceptions](7-exceptions/errors-and-exceptions.ipynb): program errors and exceptions.
 - [Handling Exception](7-exceptions/handling-exception.ipynb): handling program exception.
