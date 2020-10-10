@@ -49,7 +49,9 @@ def main():
     print(f'The number in main is {number}')
 
 def print_triple(number):
-    number *=3
+    number *= 3
+    # you shouldn't change the parameter to avoid subtle bugs
+    # you should use a new variable: triple = number * 3
     print(f'Tripled number is {number}')
 
 main()
