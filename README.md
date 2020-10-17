@@ -67,7 +67,11 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [Errors and Exceptions](7-exceptions/errors-and-exceptions.ipynb): program errors and exceptions.
 - [Handling Exception](7-exceptions/handling-exception.ipynb): handling program exception.
 
-## [Section 8: List and Tuples (TBD)](8-list-and-tuples/)
+## [Section 8: Lists](8-list/)
+
+- [Lists Note](8-lists/lists.ipynb)
+- Online vidoe resources: [Lists Youtube Video](https://youtu.be/hANUgg72TDc)
+- Advanced concepts for those who want to be a data analyst: [Lamda Function and List Video](https://youtu.be/RQRCWDK9UkA)
 
 ## [Section 9: Dictionaries and Sets (TBD)](9-dict-and-set/)
 
