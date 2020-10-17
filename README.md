@@ -57,15 +57,15 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [`main` and Scope](5-functions/main-and-scope.md): the `main` function and variable scopes. [YouTube Video](https://youtu.be/rXF1BgkU5qs)
 - [Module](5-functions/module.md): module concepts and built-in modules. [YouTube Video](https://youtu.be/Q8GHvsXhmIQ)
 
-## [Section 6: Files(TBD)](6-files/)
+## [Section 6: Files](6-files/)
 
-- [Read and Write](6-files/read-write.ipynb): read and write files.
-- [Record and Operation](6-files/record-and-operation.ipynb): record and other file operations.
+- [Read and Write](6-files/read-write.ipynb): read and write files. [YouTube Video](https://youtu.be/ScAbLiS8EXA).
+- [Record and Operation](6-files/record-and-operation.ipynb): record and other file operations. [YouTube Video](https://youtu.be/LaLFBY3yubY).
 
-## [Section 7: Exceptions (TBD)](7-exceptions/)
+## [Section 7: Exceptions](7-exceptions/)
 
-- [Errors and Exceptions](7-exceptions/errors-and-exceptions.ipynb): program errors and exceptions.
-- [Handling Exception](7-exceptions/handling-exception.ipynb): handling program exception.
+- [Errors and Exceptions](7-exceptions/errors-and-exceptions.ipynb): program errors and exceptions. [YouTube Video](https://youtu.be/gj9IiLCYnJQ).
+- [Handling Exception](7-exceptions/handling-exception.ipynb): handling program exception. [YouTube Video](https://youtu.be/jj9MVm-VqwU).
 
 ## [Section 8: Lists](8-list/)
 
@@ -74,5 +74,3 @@ The followin is table of content. It is organzied based on topics, not on a text
 - Advanced concepts for those who want to be a data analyst: [Lamda Function and List Video](https://youtu.be/RQRCWDK9UkA)
 
 ## [Section 9: Dictionaries and Sets (TBD)](9-dict-and-set/)
-
-## [Section 10: Numeric Processing (TBD)](10-numeric/)
