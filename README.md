@@ -67,15 +67,14 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [Errors and Exceptions](7-exceptions/errors-and-exceptions.ipynb): program errors and exceptions. [YouTube Video](https://youtu.be/gj9IiLCYnJQ).
 - [Handling Exception](7-exceptions/handling-exception.ipynb): handling program exception. [YouTube Video](https://youtu.be/jj9MVm-VqwU).
 
-## [Section 8: Lists](8-list/)
+## [Section 8: List and Dictionary](8-list-and-dictionary/)
 
-- [Lists Note](8-lists/lists.ipynb)
+- [Lists Note](8-list-and-dictionary/lists.ipynb)
 - Online vidoe resources: [Lists Youtube Video](https://youtu.be/hANUgg72TDc)
+- [Dictionary Note](8-list-and-dictionary//dictionary.ipynb)
+- Online vidoe resources: [Dictionary Youtube Video](https://youtu.be/rZjhId0VkuY)
 - Advanced concepts for those who want to learn more:
   - [Lambda Function Notes](advanced-topics/lambda-function.ipynb)
   - [Lamda Function Video](https://youtu.be/RQRCWDK9UkA)
 
 ## [Section 9: Dictionaries](9-dictionary/)
-
-- [Dictionary Note](9-dictionary/dictionary.ipynb)
-- Online vidoe resources: [Dictionary Youtube Video](https://youtu.be/rZjhId0VkuY)
