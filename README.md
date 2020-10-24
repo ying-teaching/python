@@ -88,4 +88,4 @@ The followin is table of content. It is organzied based on topics, not on a text
   - [Part1](https://youtu.be/wfcWRAxRVBA)
   - [Part2](https://youtu.be/WOwi0h_-dfA)
 
-## [NumPy](numpy/)
+## [Data Science](data-science/)
