@@ -70,11 +70,20 @@ The followin is table of content. It is organzied based on topics, not on a text
 ## [Section 8: List and Dictionary](8-list-and-dictionary/)
 
 - [Lists Note](8-list-and-dictionary/lists.ipynb)
-- Online vidoe resources: [Lists Youtube Video](https://youtu.be/hANUgg72TDc)
+- [Lists Youtube Video](https://youtu.be/tw7ror9x32s)
+
 - [Dictionary Note](8-list-and-dictionary//dictionary.ipynb)
-- Online vidoe resources: [Dictionary Youtube Video](https://youtu.be/rZjhId0VkuY)
+- [Dictionary Youtube Video](https://youtu.be/ZEZdys-fHDw)
+
 - Advanced concepts for those who want to learn more:
   - [Lambda Function Notes](advanced-topics/lambda-function.ipynb)
   - [Lamda Function Video](https://youtu.be/RQRCWDK9UkA)
 
-## [Section 9: Dictionaries](9-dictionary/)
+## [Section 9: Mutability and Object](9-mutability-and-object/)
+
+- [Mutablity note](9-mutability-and-object/mutability.ipynb)
+
+- [Class and Object note](9-mutability-and-object/class-and-object.ipynb)
+- Classes and Objects YouTube Videos
+  - [Part1](https://youtu.be/wfcWRAxRVBA)
+  - [Part2](https://youtu.be/WOwi0h_-dfA)
