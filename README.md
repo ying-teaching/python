@@ -76,16 +76,18 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [Dictionary Youtube Video](https://youtu.be/ZEZdys-fHDw)
 
 - Advanced concepts for those who want to learn more:
-  - [Lambda Function Notes](advanced-topics/lambda-function.ipynb)
+  - [Lambda Function Note](advanced-topics/lambda-function.ipynb)
   - [Lamda Function Video](https://youtu.be/RQRCWDK9UkA)
 
 ## [Section 9: Mutability and Object](9-mutability-and-object/)
 
-- [Mutablity note](9-mutability-and-object/mutability.ipynb)
+- [Mutablity Note](9-mutability-and-object/mutability.ipynb)
 
-- [Class and Object note](9-mutability-and-object/class-and-object.ipynb)
+- [Class and Object Note](9-mutability-and-object/class-and-object.ipynb)
 - Classes and Objects YouTube Videos
   - [Part1](https://youtu.be/wfcWRAxRVBA)
   - [Part2](https://youtu.be/WOwi0h_-dfA)
 
 ## [Data Science](data-science/)
+
+- [Data Science Note](data-science/data-science.ipynb)
