@@ -71,6 +71,11 @@ The followin is table of content. It is organzied based on topics, not on a text
 
 - [Lists Note](8-lists/lists.ipynb)
 - Online vidoe resources: [Lists Youtube Video](https://youtu.be/hANUgg72TDc)
-- Advanced concepts for those who want to be a data analyst: [Lamda Function and List Video](https://youtu.be/RQRCWDK9UkA)
+- Advanced concepts for those who want to learn more:
+  - [Lambda Function Notes](advanced-topics/lambda-function.ipynb)
+  - [Lamda Function Video](https://youtu.be/RQRCWDK9UkA)
 
-## [Section 9: Dictionaries and Sets (TBD)](9-dict-and-set/)
+## [Section 9: Dictionaries](9-dictionary/)
+
+- [Dictionary Note](9-dictionary/dictionary.ipynb)
+- Online vidoe resources: [Dictionary Youtube Video](https://youtu.be/rZjhId0VkuY)
