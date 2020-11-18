@@ -79,16 +79,13 @@ The followin is table of content. It is organzied based on topics, not on a text
   - [Lambda Function Note](8-list-and-dictionary/lambda-function.ipynb)
   - [Lamda Function Video](https://youtu.be/RQRCWDK9UkA)
 
-## [Section 9: Mutability and Object](9-mutability-and-object/)
+## [Section 9: Advanced Topics](9-advanced-topics/)
 
-- [Mutablity Note](9-mutability-and-object/mutability.ipynb)
+- [Data Visualization Note](9-advanced-topics/data-visualization.ipynb)
+- [Data Science Note](9-advanced-topics/data-science.ipynb)
 
-- [Class and Object Note](9-mutability-and-object/class-and-object.ipynb)
+- [Mutablity Note](9-advanced-topics/mutability.ipynb)
+- [Class and Object Note](9-advanced-topics/class-and-object.ipynb)
 - Classes and Objects YouTube Videos
   - [Part1](https://youtu.be/wfcWRAxRVBA)
   - [Part2](https://youtu.be/WOwi0h_-dfA)
-
-## [Data Science](data-science/)
-
-- [Data Science Note](data-science/data-science.ipynb)
-- [Data Visualization Note](data-science/data-visualization.ipynb)
