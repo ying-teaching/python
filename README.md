@@ -91,3 +91,4 @@ The followin is table of content. It is organzied based on topics, not on a text
 ## [Data Science](data-science/)
 
 - [Data Science Note](data-science/data-science.ipynb)
+- [Data Visualization Note](data-science/data-visualization.ipynb)
