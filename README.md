@@ -1,6 +1,6 @@
 # Learn Python, for fun and profit
 
-This document repository introduces you to Python programming. Most people have fun in learning Python and they can make big profit if they have big fun: [programming teachs you how to think](https://youtu.be/spy2A6MDAvA).
+This document repository introduces you to Python programming. Most people have fun in learning Python and they can make big profit if they have big fun: [programming teachs you how to think](https://youtu.be/UaA1PbyS8BA).
 
 Unlike most textbooks or tutorials, we write this document with an important principle: teaching the professional way of Python programming. "Professional" means the best practices in Python programming used by professional programmers. Following is a short list of best practices we follow in this document:
 
