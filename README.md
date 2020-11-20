@@ -69,7 +69,7 @@ The followin is table of content. It is organzied based on topics, not on a text
 
 ## [Section 8: List and Dictionary](8-list-and-dictionary/)
 
-- [Lists Note](8-list-and-dictionary/lists.ipynb)
+- [Lists Note](8-list-and-dictionary/list.ipynb)
 - [Lists Youtube Video](https://youtu.be/tw7ror9x32s)
 
 - [Dictionary Note](8-list-and-dictionary/dictionary.ipynb)
