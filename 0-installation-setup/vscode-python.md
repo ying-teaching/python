@@ -40,7 +40,7 @@ To see an installation/setup demo, you can watch one of the following videos:
 
 ## Develop Python Program in VS Code
 
-You should start with the [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial) and try our the examples in the tutorial. For new developers, you don't need to create virtual environment as described in the last section this this document. You can skip step 1 and 2 and directly install `matplotlib` in command line. In both Windows and Mac OS, just run `pip install matplotlib` and you should be able to run a plot application.
+You should start with the [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial) and try our the examples in the tutorial. For new developers, you don't need to create virtual environment as described in the last section in the document. You can skip step 1 and 2 and directly install `matplotlib` in command line. In both Windows and Mac OS, just run `pip install matplotlib` and you should be able to run a plot application.
 
 The next step is to be familiar with the following sections of the Python in VS Code document. The Jupyter Notebook is useful to write note that mixes Markdown text and Python code. It is very popular among data scientists.
 
@@ -48,11 +48,13 @@ The next step is to be familiar with the following sections of the Python in VS 
 - [Working with Jupyter Notebooks](https://code.visualstudio.com/docs/python/jupyter-support)
 - [Working with the Python Interactive window](https://code.visualstudio.com/docs/python/jupyter-support-py)
 
-Markdown is a text format standard that is widely used by programmers. You can [Master Markdown](https://guides.github.com/features/mastering-markdown/) in about 10 minutes.
-
 The following two videos from Microsoft VS code tema are a good introduction to programming Python in VS Code.
 
 - [Getting Started with Python in Visual Studio Code](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Getting-Started-with-Python-in-Visual-Studio-Code)
 - [Jupyter Notebooks in Visual Studio Code](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Jupyter-Notebooks-in-Visual-Studio-Code)
 
 It seems that VS Code keeps improving every day and there are new features/changes that are inconsistent with the above documents and videos. But the essentail ideas are there.
+
+## Markdown Document
+
+This document and many software projects use Markdown format to write documents. Markdown is a text format standard that is widely used by programmers. You can [Master Markdown](https://guides.github.com/features/mastering-markdown/) in about 10 minutes.
