@@ -1,6 +1,6 @@
 # Getting Started with Python in VS Code
 
-This tutorial is based on the [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial). It is revised to fit beginners.
+This tutorial is based on the [Getting Started with Python in VS Code document](https://code.visualstudio.com/docs/python/python-tutorial). It is revised to fit beginners.
 
 ## Hello World
 
@@ -21,17 +21,19 @@ mkdir hello-world
 cd hello-world
 ```
 
-You can use `pwd` command to check that you are in the correct folder. Then use `code .` command to run VS Code that uses the current folder `.` as the workspace. The `.` means the current folder, which is `hello-world` now.
+Then use `code .` command to run VS Code that uses the current folder `.` as the workspace. The `.` means the current folder, which is `hello-world` now. In Mac computer, you can use `pwd` command to check that you are in the correct folder. In Windows CMD, use `cd` to check the current folder.
 
-With Python interpreter installed, you can run the code in Python interpreter (`python3`) or in IDLE (`idle`). Once you install VS Code, you have more ways to run Python code. Together, you can
+With Python interpreter installed, you can run the code in Python interpreter (`python3`) or in IDLE (`idle`). Once you install Python3 and VS Code, you have several ways to run Python code. Together, you can
 
-- run `python3` in your computer OS terminal or in the VS Code terminal.
-- use Python REPL within the VS Code. It is the same as running `idle3` in command line outside VS Code.
-- when you create `.py` file such as `hello.py`, you can run the file from a terminal or command line using the command `python hello.py`.
-- use menu or shortcut to run/debug a Python files that has `.py` appendix.
-- run Jupyter Notebook cells for files that has `.ipynb` appendix.
-- run cells marked by `# %%` in a `.py` files.
-- write/wring Python code in an interactive Python window in VS Code. Usually this window opens when you run Jupyter notebook cells or Python cells.
+1. run `python3` or `idle3` in your computer OS terminal or in the VS Code terminal.
+1. when you create `.py` file such as `hello.py`, you can run the file from a terminal.
+1. run cells marked by `# %%` in a `.py` files.
+1. command line using the command `python3 hello.py`.
+1. use menu or shortcut to run/debug a Python files that has `.py` appendix.
+1. run Jupyter Notebook cells for files that has `.ipynb` appendix.
+1. write/wring Python code in an interactive Python window in VS Code. Usually this window opens when you run Jupyter notebook cells or Python cells.
+
+Because VS code has good support of Python development, we only use the first method to run very simple Python code. VS code is one of the best IDE to write, run and debug Python code.
 
 ## Use Packages
 
