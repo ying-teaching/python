@@ -1,15 +1,19 @@
 # Turtle Graphics
 
-In addition to built-in functions, Python organize a set of functions into a module. Python has a built-in `turtle` module for a long history. It is fun to code with because the its operation effects are visible and could produce interesting graphics. Here you use it to execute sequential operations and use constant defintions.
+A typical python program has many functions therefore Python organizes a set of functions into a module. Python has a built-in `turtle` module for a long history. It is fun to code with because its operation effects are visible and could produce interesting graphics. Here you use it to learn
+
+- write sequential operations.
+- define variables.
+- use constant defintions.
 
 ## 1 Two Programming Patterns
 
-As using functions from a module, you need to import a module to use it. Once you import the `turtle` module, you can use it in two programming patterns:
+Unlike using built-in functions, you need to import a module to use it. Once you import the `turtle` module, you can use it in two programming patterns:
 
 - Procedure-oriented: all functions/operations are directly available in `turtle` module, you call the function as `turtle.operation(...)`. For example, `turtle.showturtle()` or `turtle.forward(100)`. Here the `turtle` is a module and the name after `.` is a function name.
 - Object-oriented: the `turtle` module actually has many objects. Like the real world, there are many objects interact/collaborate with each other to perform functions.
   - An **object** has both data and methods. You use an object's methods to run operations, usually manipulate its data or perform some I/O operations.
-  - Unlike the procedure-oriented way, you should create an object from its class to use it.
+  - Unlike the procedure-oriented way, you need to create an object from its class before you can use it.
   - A **class** defines a template for objects that share the same properties (data) and operations. For example, a `Student` class can have `student_id` and `major` properties and can have same set of operations such as `do_homework` and `take_test`. An object, also called an **instance** may have different instance data for `student_id` and `major`.
   - Use the dot notation `student.do_homework` to call an instance method. Here the `student` is an instance/object of the `Student` class and `do_homework` is its method.
 
