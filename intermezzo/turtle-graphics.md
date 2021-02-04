@@ -1,6 +1,6 @@
 # Turtle Graphics
 
-A typical python program has many functions therefore Python organizes a set of functions into a module. Python has a built-in `turtle` module for a long history. It is fun to code with because its operation effects are visible and could produce interesting graphics. Here you use it to learn
+A typical python program has many functions therefore Python organizes a set of functions into a module. Python has a built-in [`turtle`](https://docs.python.org/3/library/turtle.html) module for a long history. It is fun to code with because its operation effects are visible and could produce interesting graphics. Here you use it to learn
 
 - write sequential operations.
 - define variables.
@@ -11,21 +11,23 @@ A typical python program has many functions therefore Python organizes a set of 
 Unlike using built-in functions, you need to import a module to use it. Once you import the `turtle` module, you can use it in two programming patterns:
 
 - Procedure-oriented: all functions/operations are directly available in `turtle` module, you call the function as `turtle.operation(...)`. For example, `turtle.showturtle()` or `turtle.forward(100)`. Here the `turtle` is a module and the name after `.` is a function name.
-- Object-oriented: the `turtle` module actually has many objects. Like the real world, there are many objects interact/collaborate with each other to perform functions.
+- Object-oriented: the `turtle` module has many classes. A class is a blueprint to create objects. Like the real world, there are many objects interact/collaborate with each other to perform functions.
   - An **object** has both data and methods. You use an object's methods to run operations, usually manipulate its data or perform some I/O operations.
   - Unlike the procedure-oriented way, you need to create an object from its class before you can use it.
-  - A **class** defines a template for objects that share the same properties (data) and operations. For example, a `Student` class can have `student_id` and `major` properties and can have same set of operations such as `do_homework` and `take_test`. An object, also called an **instance** may have different instance data for `student_id` and `major`.
+  - A **class** defines a blueprint for objects that share the same properties (data) and operations. For example, a `Student` class can have `student_id` and `major` properties and can have same set of operations such as `do_homework` and `take_test`. An object, also called an **instance** may have different instance data for `student_id` and `major`.
   - Use the dot notation `student.do_homework` to call an instance method. Here the `student` is an instance/object of the `Student` class and `do_homework` is its method.
 
-You can use either procedure-oriented or object-oriented in Python interactive intepreter or IDLE3. However, when writing code in VS Code, it is better to use object-oriented pattern because VS Code can show better help information for objects and methods.
+You can use either procedure-oriented or object-oriented in Python interactive intepreter or IDLE3. However, when writing code in VS Code, it is better to use object-oriented pattern because VS Code can show better help information for objects and their methods.
 
-## 2 The `Turtle` Class
+## 2 The `Turtle`/'Pen' Class
 
 The `turtle` module defines a `Turtle` class that has a canvas that you can draw pictures on it. It draws pictures as a turtle walking on earth. It has many methods that simulate operations a turtle can do such as go foward, turn right and etc.
 
 Because the `Turtle` class draws on a canvas, it also works like a pen. Actually the `Turtle` class has an aliase named `Pen`. It has operations such as open down, penup, fillcolor.
 
 ## 3 The `pen` Instance
+
+To avoid the confusing with `turtle` module name, we use `pen` as the variable name for a `Turtle` / `Pen` object.
 
 ### 3.1 Create an Instance
 
@@ -147,7 +149,10 @@ pen.write(num, font=('Arial', 28, 'normal'))
 turtle.done()
 ```
 
-In the above code, please distinguish two different types of calls: `turtle.bgcolor()`, `turtle.pen()`, `turtle.numinput()`, and `turtle.done()` are functions in the `turtle` module. `pen.color()` and `pen.write()` are methods of an instance/object of a `Turtle` class. The instance is bound to variable `pen`.
+In the above code, please distinguish two different types of calls:
+
+- Functions: `turtle.bgcolor()`, `turtle.pen()`, `turtle.numinput()`, and `turtle.done()` are functions in the `turtle` module.
+- Methods: `pen.color()` and `pen.write()` are methods of an instance/object of a `Turtle` class. The instance is bound to variable `pen`.
 
 It is a best practice to define constant values using meaningful variables names that use uppercase words seperated by underscore.
 
