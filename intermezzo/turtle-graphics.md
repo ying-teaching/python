@@ -19,7 +19,7 @@ Unlike using built-in functions, you need to import a module to use it. Once you
 
 You can use either procedure-oriented or object-oriented in Python interactive intepreter or IDLE3. However, when writing code in VS Code, it is better to use object-oriented pattern because VS Code can show better help information for objects and their methods.
 
-## 2 The `Turtle`/'Pen' Class
+## 2 The `Turtle`/`Pen` Class
 
 The `turtle` module defines a `Turtle` class that has a canvas that you can draw pictures on it. It draws pictures as a turtle walking on earth. It has many methods that simulate operations a turtle can do such as go foward, turn right and etc.
 
