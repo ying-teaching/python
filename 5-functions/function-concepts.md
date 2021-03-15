@@ -126,7 +126,7 @@ Except for trivial functions, you should write a **docstring** for the function.
 
 The function body is the code block indented (4 spaces, per Python coding style) below the function header. The statements in the function body are just regular statements. You can use all control statements (`if`, `for`, and `while`) in the fucntion body.
 
-An nnindented statement below the function header marks the end of the function body. For example:
+An non-indented statement below the function header marks the end of the function body. For example:
 
 ```python
 def greet(name, prefix = 'Hello')

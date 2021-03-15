@@ -40,7 +40,7 @@ def main():
 main()
 ```
 
-The function parameters are local variables. You can use them inside the function as locally defined variables. Assigning a parameter to another value doesn't affect the corresponding argument.
+The function parameters are also local variables. You can use them inside the function as locally defined variables. Assigning a parameter to another value doesn't affect the corresponding argument.
 
 ```python
 def main():
@@ -94,3 +94,36 @@ main()
 ```
 
 The `number` is created in the `for` loop but its scope is the `main` function. Therefore it can be used by the `print(number)` statement in the `main` function.
+
+## 3 Call Stack
+
+Usually your program has a entry point function and the function calls other functions which call more other functions. When a function calls another function, Python intepreter saves the status of the current function in a data structure called a `call frame`, then executed the callee function. Similarly, the callee function may call another funciton and more and more, eventually, we have a so-called call stack. For example:
+
+```python
+def foo():
+  x = "foo"
+  print(f"foo line 2. x is {x}")
+  print("foo line 3")
+  print("foo line 4")
+
+def fum():
+  print("fum line 1")
+  print("fum line 2")
+  print("fum line 3")
+
+def bar():
+  x = 21
+  print(f"bar line 2. x is {x}")
+  fum()
+  foo()
+  print(f"bar line 5. x is {x}")
+
+def main():
+  x = 42
+  bar()
+  print(f"main line 3. x is {x}")
+
+main()
+```
+
+The `main` function calls the `bar` function that calls three more functions: `print`, `fum`, `foo`. The `print` function is called twice. When the `bar` calls `foo`, there are three functions in the statck: at the bottom, `main`, then `bar`, then, at the top, `foo`. You can debug the code to see the call stack. When a function returns, its call frame is poped up from the stack and its caller becomes the top function in the call stack. The variable `x` is a local variable in its function scope and may have different values at different time.
