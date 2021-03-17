@@ -97,7 +97,11 @@ The `number` is created in the `for` loop but its scope is the `main` function. 
 
 ## 3 Call Stack
 
-Usually your program has a entry point function and the function calls other functions which call more other functions. When a function calls another function, Python intepreter saves the status of the current function in a data structure called a `call frame`, then executed the callee function. Similarly, the callee function may call another funciton and more and more, eventually, we have a so-called call stack. For example:
+Usually your program has a entry point function and the function calls other functions which call more other functions. When a function calls another function, Python intepreter saves the status of the current function in a data structure called a `call frame`, then executed the callee function. Similarly, the callee function may call another funciton and more and more, eventually, we have a so-called call stack.
+
+![call stack](images/call-stack.png)
+
+For example, you can debug the following program to check its call stack and call frames.
 
 ```python
 def foo():
