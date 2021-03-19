@@ -10,7 +10,7 @@ Python uses three constructs to organize an application:
 
 - a funtion to group statements, in a source code file.
 - a module to group functions in a Python source code file. One file is a module.
-- a pacakgeto group files, usually in one or more folders. A folder can be a package.
+- a pacakge to group files, usually in one or more folders. A folder can be a package.
 
 The reason is rather simple, putting all functions into a single file is not appropirate for big programs. Putting functions into diffrent files are easy to read/write and easy to collaborate. Packages are used to organize a large functional area. For example, all math functions or network requests.
 
