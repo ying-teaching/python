@@ -158,7 +158,7 @@ if __name__ == '__main__':
 
 Try to run the file in a command line and import it from another module. You should see the test output in commandline but not in the imported file.
 
-## 6 `random` and `math`
+## 6 `random`, `math` and `statistics`
 
 The `random`, `math` and `statistics` are commonly used built-in modules. You import them and call their functions.
 
@@ -198,7 +198,7 @@ Follwing are some commonly used functions in `math` module. Check the [`math` do
 - `math.e`: the mathematical constant e = 2.718281…, to available precision.
 - `math.sqrt(x)`: return the square root of `x`.
 - `math.ceil(x)`: return the ceiling of `x`, the smallest integer greater than or equal to x.
-- `math.fabs(x)`: return the absolute value of `x`.
+- `math.abs(x)`: return the absolute value of `x`.
 
 ### 6.3 `statistics` Module
 
