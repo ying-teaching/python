@@ -1,11 +1,10 @@
-
 import turtle
+from game_constants import MAX_DISTANCE
 
 TARGET_LLEFT_X = 100  # Target's lower-left X
 TARGET_LLEFT_Y = 250  # Target's lower-left Y
 TARGET_WIDTH = 25     # Width of the target
 
-from game_constants import MAX_DISTANCE
 
 # define constants locally if they are not shared
 def draw_target(pen):
