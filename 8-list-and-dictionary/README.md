@@ -1,6 +1,6 @@
 # List and Dictionary
 
-- [List Note](list.ipynb)
+- [List Note](list-and-tuple.ipynb)
 - [Lists Youtube Video](https://youtu.be/tw7ror9x32s)
 
 - [Dictionary Note](dictionary.ipynb)
