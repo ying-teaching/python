@@ -67,25 +67,27 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [Errors and Exceptions](7-exceptions/errors-and-exceptions.ipynb): program errors and exceptions. [YouTube Video](https://youtu.be/gj9IiLCYnJQ).
 - [Handling Exception](7-exceptions/handling-exception.ipynb): handling program exception. [YouTube Video](https://youtu.be/jj9MVm-VqwU).
 
-## [Section 8: List and Dictionary](8-list-and-dictionary/)
+## [Section 8: List and Tuple](8-list-and-tuple/)
 
-- [Lists Note](8-list-and-dictionary/list.ipynb)
+- [List Note](8-list-and-tuple/list.ipynb)
+- [Tuple Note](8-list-and-tuple/tupple.ipynb)
 - [Lists Youtube Video](https://youtu.be/tw7ror9x32s)
 
-- [Dictionary Note](8-list-and-dictionary/dictionary.ipynb)
+## [Section 9: Dictionary](9-dictionary/)
+
+- [Dictionary Note](9-dictionary/dictionary.ipynb)
 - [Dictionary Youtube Video](https://youtu.be/ZEZdys-fHDw)
 
-- Advanced concepts for those who want to learn more:
-  - [Lambda Function Note](8-list-and-dictionary/lambda-function.ipynb)
-  - [Lamda Function Video](https://youtu.be/RQRCWDK9UkA)
+## [Section: Advanced Topics](advanced-topics/)
 
-## [Section 9: Advanced Topics](9-advanced-topics/)
+- [Lambda Function Note](advanced-topics/lambda-function.ipynb)
+- [Lamda Function Video](https://youtu.be/RQRCWDK9UkA)
 
-- [Data Visualization Note](9-advanced-topics/data-visualization.ipynb)
-- [Data Science Note](9-advanced-topics/data-science.ipynb)
+- [Data Visualization Note](advanced-topics/data-visualization.ipynb)
+- [Data Science Note](advanced-topics/data-science.ipynb)
 
-- [Mutablity Note](9-advanced-topics/mutability.ipynb)
-- [Class and Object Note](9-advanced-topics/class-and-object.ipynb)
+- [Mutablity Note](advanced-topics/mutability.ipynb)
+- [Class and Object Note](advanced-topics/class-and-object.ipynb)
 - Classes and Objects YouTube Videos
   - [Part1](https://youtu.be/wfcWRAxRVBA)
   - [Part2](https://youtu.be/WOwi0h_-dfA)
