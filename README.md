@@ -73,10 +73,11 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [Tuple Note](8-list-and-tuple/tupple.ipynb)
 - [Lists Youtube Video](https://youtu.be/tw7ror9x32s)
 
-## [Section 9: Dictionary](9-dictionary/)
+## [Section 9: Dictionary and Set](9-dictionary-and-set/)
 
 - [Dictionary Note](9-dictionary/dictionary.ipynb)
 - [Dictionary Youtube Video](https://youtu.be/ZEZdys-fHDw)
+- [Set Youtube Video](https://youtu.be/r3R3h5ly_8g)
 
 ## [Section: Advanced Topics](advanced-topics/)
 
