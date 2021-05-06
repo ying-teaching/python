@@ -17,6 +17,7 @@ The article [Why Should I Learn to Code? 17 Reasons to Learn Programming](https:
 - Coding ability gives new perspective to problem-solving.
 - Learning to code offers career flexibility: digital economy becomes bigger everyday and coding is critical for any kind of business. You can choose the kind of business you like.
 - Build something cool: you have a powerful tool that beyond human imagination just 50 years ago. It let you experss your creativity.
+- There is an abundance for free online high quality resources.
 
 ## 2 What You Have Laerned
 
