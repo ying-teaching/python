@@ -6,7 +6,7 @@ Now it is time to review three things:
 - what you have learned
 - what are the next to learn.
 
-## 1 Why Should Programming
+## 1 Why Should You Learn Programming
 
 Different people have different answers. For example, Steve Jobs once said, "Everybody in this country should learn how to program a computer... because it teaches you how to think." This could be one important reason to learn programming, but there are many benefits, both for fun and for profit.
 
