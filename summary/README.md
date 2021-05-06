@@ -1,6 +1,8 @@
 # Summary
 
-The only way you can learn programming is programming a lot. Now it is time to review three things:
+The only way you can learn programming is programming a lot. Teachers, books, videos etc are only tools/helpers. The only way is learning-by-doing.
+
+Now it is time to review three things:
 
 - why you should learn programming
 - what you have learned
