@@ -56,7 +56,7 @@ Upon completion of this course, each student will be able to build a programmerâ
 
 [Python Crash Course](https://nostarch.com/pythoncrashcourse2e) It is a well-organized book you can read and try all the projects in this book.
 
-[Python for Everybody](https://www.py4e.com/):This web site is building a set of free materials, lectures, book and assignments to help students learn how to program in Python. You can take this course and receive a certificate at
+[Python for Everybody](https://www.py4e.com/):This web site has a set of free materials, lectures, book and assignments to help students learn how to program in Python. You can take this course and receive a certificate at
 
 - [Courera: Python for Everybody Specialization](https://www.coursera.org/specializations/python),
 - [edX: Python for Everybody](https://www.edx.org/bio/charles-severance)
