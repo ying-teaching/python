@@ -92,3 +92,5 @@ The followin is table of content. It is organzied based on topics, not on a text
 - Classes and Objects YouTube Videos
   - [Part1](https://youtu.be/wfcWRAxRVBA)
   - [Part2](https://youtu.be/WOwi0h_-dfA)
+
+## [Summary](summary/)
