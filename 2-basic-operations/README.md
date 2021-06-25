@@ -14,10 +14,10 @@ An expression’s objective is to operate on one more more pieced of data and pr
 
 A statement’s main job is to produce changes in the program. Change are also called effects or states of the program. A statement may change the program states by creating a variable, changing the data in a varaible, writing data to a file or reading data from a database.
 
-## Sequneces, Selections and Loops
+## Sequneces, Selections and Repetitions
 
 As in real life, the operations of a program take three forms:
 
 - Sequences: execute one after another
 - Selections: perform different operations for different conditions
-- Loops: keep doing some operations for a nubmer of times or until some conditions change.
+- Repetitions: keep doing some operations for a nubmer of times or until some conditions change.
