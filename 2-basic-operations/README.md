@@ -5,3 +5,11 @@
 - [Types and Operations](types-and-operations.ipynb): data types and operations. [YouTube Video: Types and Operations](https://youtu.be/HopGmJKTTE4)
 - [Reading Input](reading-input.ipynb): reading input of different types. [YouTube Video: Reading Input](https://youtu.be/5H09F6JFbIs)
 - [F-string](formatted-string.ipynb): format string literals in different ways. [YouTube Video: Formatted String](https://youtu.be/fEGRLW_--Co)
+
+## Data, Expression and Statement
+
+The constructs of a program can be classified into three kinds: data, expression and statement. Data represent the information to be processed by the program. They can be booleans, numbers, strings or a mix of them.
+
+An expression’s objective is to operate on one more more pieced of data and produce a value. For example, add two numbers, compare two numbers (the result is a boolean value) or find a substring from a string.
+
+A statement’s main job is to produce changes in the program. Change are also called effects or states of the program. A statement may change the program states by creating a variable, changing the data in a varaible, writing data to a file or reading data from a database.
