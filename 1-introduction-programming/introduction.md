@@ -44,14 +44,15 @@ As you can see, programs written in high-level languages must be translated into
 
 ## Constructs of a Programming Language
 
-- Keywords: predefined words used to write program in high-level language
+- Keywords: predefined words used to write program in high-level language.
   - Each keyword has specific meaning. For example: `if`, `true`.
-- Operators: perform operations on data
-  - Example: math operators `+` and `-` to perform arithmetic
-- Syntax: set of rules to be followed when writing program
-- Statement: individual instruction used in high-level language
-- Source code: statements written by programmer
-- Syntax error: prevents code from being translated into machine code.
+- Operators: perform operations on data.
+  - Example: math operators `+` and `-` to perform arithmetic.
+- Syntax: set of rules to be followed when writing program.
+- Expression: a single value such as `3` or an operation such as `3 + 5` that produce a value.
+- Statement: individual instruction that use expression(s) to perform a task. For example: `print(3 + 5)`.
+- Source code: statements written by programmer.
+- Syntax error: errors that prevent code from being translated into machine code.
 
 ## Compiler and Interpreter
 
@@ -73,4 +74,7 @@ The key differences between a compiler and an interpreter are:
 
 ![compiler-interpreter](./images/compiler-interpreter.png)
 
-However, the boundary between a compiler and an interpreter is not clear because there are compilers such as [Cython](https://cython.org/) that compiles Python source code to machine code. Another reason is that high-level languages such as Java or C# are using a virtual machine to run their code. A virtual machine is similar to an interpreter. The virtual machine code is usually called **bytecode** where the real machine code is called **machine code**.
+However, the boundary between a compiler and an interpreter is not clear because there are compilers such as [Cython](https://cython.org/) that compiles Python source code to machine code. Another reason is that high-level languages such as Java or C# use a virtual machine to run their code. A virtual machine is similar to an interpreter. The virtual machine code is usually called **byte code** where the real machine code is called **machine code**. The **byte code** is an **intermediate representation (IR)** because it still needs to be converted into machine code by the virtual machine. You may think the Java Virtual Machine (JVM) as an interpreter as depicted in the folloiwng diagram.
+
+![bytecode-machinecode](./images/bytecode-machinecode.png)
+(source: [geeksforgeeks.org: Difference between Byte Code and Machine Code](https://www.geeksforgeeks.org/difference-between-byte-code-and-machine-code/))
