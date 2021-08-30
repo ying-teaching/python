@@ -26,14 +26,13 @@ Then use `code .` command to run VS Code that uses the current folder `.` as the
 With Python interpreter installed, you can run the code in Python interpreter (`python3`) or in IDLE (`idle`). Once you install Python3 and VS Code, you have several ways to run Python code. Together, you can
 
 1. run `python3` or `idle3` in your computer OS terminal or in the VS Code terminal.
-1. when you create `.py` file such as `hello.py`, you can run the file from a terminal.
-1. run cells marked by `# %%` in a `.py` files.
-1. command line using the command `python3 hello.py`.
-1. use menu or shortcut to run/debug a Python files that has `.py` appendix.
-1. run Jupyter Notebook cells for files that has `.ipynb` appendix.
-1. write/wring Python code in an interactive Python window in VS Code. Usually this window opens when you run Jupyter notebook cells or Python cells.
+1. when you create `.py` file such as `hello.py`, you can run the file from a terminal using `python3 hello.py`.
+1. in VS Code, run Jupyter Notebook cells for files that has `.ipynb` appendix. Check the doc [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
+1. in VS Code, run code cells marked by `# %%` in a `.py` files -- this is better than `idle3` or `python3`. Check the doc [Python Interactive Window](https://code.visualstudio.com/docs/python/jupyter-support-py)
+1. write/wring Python code in an interactive Python window in VS Code. Usually this window opens when you run Jupyter notebook cells or Python cells. This is used for one line code because the limited editing space.
+1. in VS Code, use menu or shortcut to run/debug a Python files that has `.py` appendix.
 
-Because VS code has good support of Python development, we only use the first method to run very simple Python code. VS code is one of the best IDE to write, run and debug Python code.
+Because VS code has good support of Python development, we only use the first method to run very simple Python code and use VS code as much as possible. To many developers, VS Code is the **best IDE** to write, run and debug Python code.
 
 ## Use Packages
 

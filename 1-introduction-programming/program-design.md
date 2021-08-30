@@ -35,7 +35,7 @@ According to the above book [How to Design Programs](https://htdp.org/), the [Sy
 
 The whole program can be seen as a big function that consists of many small functions. A function takes an input, processing the input data and produces an output. The above steps are performed in many iterations for functions in different levels.
 
-Note: The book [How to Design Programs](https://htdp.org/) is a free online book. It is used by several online free courses. A good one is the edX course [How to Code: Simple Data](https://www.edx.org/course/how-to-code-simple-data) from the University of British Columbia. One thing you can learn from the book/course is that all programming langauges are similar once you know the principles. Design is importatn and coding is the easiest part.
+Note: The book [How to Design Programs](https://htdp.org/) is a free online book. It is used by several online free courses. A good one is the edX course [How to Code: Simple Data](https://www.edx.org/course/how-to-code-simple-data) from the University of British Columbia. One thing you can learn from the book/course is that all programming langauges are similar once you know the principles. Design is importatn and coding is easier than design.
 
 ## Algorithm and Pseudocode
 
