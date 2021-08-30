@@ -61,14 +61,16 @@ There is another way to run programs written in high-level langauges: using inte
 
 ![interpreter](./images/interpreter.png)
 
-Of course, the interpreter is a machine code file excuted in a CPU. You can think an interpreter as a virtual machine that can understand high-level langugase instructions.
-
-![compiler-interpreter](./images/compiler-interpreter.png)
+Of course, the interpreter is a machine code file excuted in a CPU. You can think an interpreter as a **machine emulator** that can understand high-level langugase instructions.
 
 Python is an interpreter and Python programs are interprted (executed) by Python. A program language that requires an interpreter is often called a scripting langauge. A program written in scripting language is called a script.
 
-However, the boundary between a compiler and an interpreter is not clear because there are compilers such as [Cython](https://cython.org/) that compiles Python source code to machine code. Another reason is that high-level languages such as Java or C# are using a virtual machine to run their code. A virtual machine is similar to an interpreter.
+The key differences between a compiler and an interpreter are:
 
-The key difference between a compiler and an interpreter is that a compiler compiles all instructions into an executable application and run the application in a separate step. An interpreter interpret and run one instruction at a time.
+- all vs one statement a step: a compiler compiles all instructions together. An interpreter interprets one instruction/statement at one time.
+- executable files or not: A compiler produces excutable machine code files from source code files. An interpreter doesn't produce any executable files from source code file.
+- where to run: for a compiler, a user runs the executable file (program/application) in a computer or a virtual machine. An intepreters interpretes and executes a statement at a time directly from source code.
 
-![compiler-interpreter2](./images/compiler-interpreter2.png)
+![compiler-interpreter](./images/compiler-interpreter.png)
+
+However, the boundary between a compiler and an interpreter is not clear because there are compilers such as [Cython](https://cython.org/) that compiles Python source code to machine code. Another reason is that high-level languages such as Java or C# are using a virtual machine to run their code. A virtual machine is similar to an interpreter. The virtual machine code is usually called **bytecode** where the real machine code is called **machine code**.
