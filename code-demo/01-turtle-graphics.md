@@ -1,6 +1,6 @@
 # Turtle Graphics
 
-A typical python program has many functions therefore Python organizes a set of functions into a module. Python has a built-in [`turtle`](https://docs.python.org/3/library/turtle.html) module for a long history. It is fun to code with because its operation effects are visible and could produce interesting graphics. Here you use it to learn
+A typical python program has many functions therefore Python organizes a set of functions into a module. Unlike other modeuls such as `numpy`, you don't need to install the `turtle` module because it is a built-in module [`turtle`](https://docs.python.org/3/library/turtle.html) for a long history. It is fun to code with because its operation effects are visible and could produce interesting graphics. Here you use it to learn
 
 - write sequential operations.
 - define variables.
@@ -17,21 +17,21 @@ Unlike using built-in functions, you need to import a module to use it. Once you
   - A **class** defines a blueprint for objects that share the same properties (data) and operations. For example, a `Student` class can have `student_id` and `major` properties and can have same set of operations such as `do_homework` and `take_test`. Different objects, also called an **instance** may have different properties values for `student_id` and `major`.
   - Use the dot notation `alice.do_homework()` to call an instance method. Here the `alice` is an instance/object of the `Student` class and `do_homework` is its method. Similarly, dot notation `alice.student_id` and `alice.major` are used to read/write the `alice`'s properties.
 
-You can use either FP or OO styles. Object-oriented was popular but today's developers prefer FP style. Here we use the FP style.
+You can use either FP or OO styles. Object-oriented was popular but today's developers prefer FP style for reasons beyond this course. Here we use the FP style.
 
 ## 2 The `turtle` module
 
-The `turtle` module defines many functions around three entities: a turtle, a pen, and a screen. A turtle uses a pen to draw pictures in a screen. The turtle can have different shapes or hide and its primary functions are drawing with a pen when it moves. A pen can be `up` (not drawing) or `down` (drawing) and can have different sizes and colors. A screen also has different colors and sizes in which the turtle draws different pictures.
+The `turtle` module defines many functions around three entities: a turtle, a pen, and a screen. A turtle uses a pen to draw pictures in a screen. The turtle can have different shapes and its primary functions are drawing with a pen when it moves. A pen can be `up` (not drawing) or `down` (drawing) and can have different sizes and colors. A screen also has different colors and sizes in which the turtle draws pictures.
 
 As learning any Pyhthon modules, you can only learn by doing.
 
 ## 3 The code template
 
-To avoid the confusing with `turtle` module name, we use `pen` as the variable name for a `Turtle` / `Pen` object.
+To avoid the confusing with `turtle` module name, don't use `turtle.py` as your program file name. Youc can use a different name such aqs `turtle_demo.py`.
 
-### 3.1 Keep the graphics stay
+### 3.1 Keep the screen open
 
-You can write tutrle code interactively inside `idle3` or `python3` interpreter. However, when you run a tutle program (for example in a file name `turtle_demo.py`) using command line `python3 turtle_demo.py`, the screen disappears when the program completes. To keep the screen stay, you should call a special function: `turtle.done()` as the last statement. Therefore, the code template is as the following:
+You can write tutrle code interactively inside `idle3` or `python3` interpreter. However, when you run a tutle program (for example in a file name `turtle_demo.py`) using command line `python3 turtle_demo.py`, the screen disappears when the program completes. To keep the screen open, you should call a special function: `turtle.done()` as the last statement. Therefore, the code template is as the following:
 
 ```py
 import turtle
