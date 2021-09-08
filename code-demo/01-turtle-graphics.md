@@ -176,8 +176,8 @@ turtle.done()
 
 ## 8 Resources
 
-All the module, classes and operations used above are documente in [`turtle` - Turtle Grpahics](https://docs.python.org/3/library/turtle.html). The document documents the procedure functions thus it is not clear which methods can be used by `Pen`/`Turtle` class instances. As yo can see, VS Code can give contextual help.
+All the module, classes and operations used above are documente in [`turtle` - Turtle Grpahics](https://docs.python.org/3/library/turtle.html).
 
 [The beginner's guide to Python turtle](https://realpython.com/beginners-guide-python-turtle/) is a good introduction.
 
-As always, there is no perfect document/help available, just try.
+As always, there is no perfect document/help, just try.
