@@ -1,3 +1,22 @@
+# First, make sure you understand the question.
+# Second, deveop a design/plan of the solution
+# In the design, the program is divided into mutiple subtasks
+# each subtask is small and clear to program.
+
+# when you start coding, it is very very very important
+# to develop the program incrementally, one small subtask/piece at time
+# only when the current works correctly, then you move the next
+
+# in Exam, if you program doesn't compile (has syntax error), you get no more than 20%
+# of the score. 
+
+# 1. Setup the screen
+# 2. draw the target
+# 3. ask user to input two parameters: angle and distance
+# 4. launch the projectile with the specified angle and distance
+# 5. check whethere we hit the target or not, display the hit/miss message
+
+
 # Hit the Target Game
 import turtle
 import math
