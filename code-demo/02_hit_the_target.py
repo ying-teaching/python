@@ -24,7 +24,7 @@ import math
 # Named constants
 SCREEN_WIDTH = 600    # Screen width
 SCREEN_HEIGHT = 600   # Screen height
-MAX_DISTANCE = math.ceil(math.sqrt(SCREEN_HEIGHT ** 2 + SCREEN_HEIGHT ** 2) / 2)
+MAX_DISTANCE = math.ceil(math.sqrt(SCREEN_WIDTH ** 2 + SCREEN_HEIGHT ** 2) / 2)
 
 TARGET_LLEFT_X = 100  # Target's lower-left X
 TARGET_LLEFT_Y = 250  # Target's lower-left Y
