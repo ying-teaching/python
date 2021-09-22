@@ -21,42 +21,41 @@ WEST = 180            # Angle of west direction
 # Setup the window.
 turtle.setup(SCREEN_WIDTH, SCREEN_HEIGHT)
 
-pen = turtle.Pen()
 
 # Draw the target.
-pen.hideturtle()
-pen.speed(0)
-pen.penup()
-pen.goto(TARGET_LLEFT_X, TARGET_LLEFT_Y)
-pen.pendown()
-pen.setheading(EAST)
-pen.forward(TARGET_WIDTH)
-pen.setheading(NORTH)
-pen.forward(TARGET_WIDTH)
-pen.setheading(WEST)
-pen.forward(TARGET_WIDTH)
-pen.setheading(SOUTH)
-pen.forward(TARGET_WIDTH)
-pen.penup()
+turtle.hideturtle()
+turtle.speed(0)
+turtle.penup()
+turtle.goto(TARGET_LLEFT_X, TARGET_LLEFT_Y)
+turtle.pendown()
+turtle.setheading(EAST)
+turtle.forward(TARGET_WIDTH)
+turtle.setheading(NORTH)
+turtle.forward(TARGET_WIDTH)
+turtle.setheading(WEST)
+turtle.forward(TARGET_WIDTH)
+turtle.setheading(SOUTH)
+turtle.forward(TARGET_WIDTH)
+turtle.penup()
 
 # Center the turtle.
-pen.home()
-pen.showturtle()
-pen.speed(PROJECTILE_SPEED)
+turtle.home()
+turtle.showturtle()
+turtle.speed(PROJECTILE_SPEED)
 
 # Get the angle and force from the user.
 angle = int(input("Enter the projectile's angle 0-360: "))
 distance = int(input(f'Enter the launch distance (1-{MAX_DISTANCE}): '))
 
 # Set the heading.
-pen.setheading(angle)
+turtle.setheading(angle)
 
 # Launch the projectile.
-pen.pendown()
-pen.forward(distance)
+turtle.pendown()
+turtle.forward(distance)
 
-xcor = pen.xcor()
-ycor = pen.ycor()
+xcor = turtle.xcor()
+ycor = turtle.ycor()
 
 # Did it hit the target?
 is_in_x = ((xcor >= TARGET_LLEFT_X) and 
