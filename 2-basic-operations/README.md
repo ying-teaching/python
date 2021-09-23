@@ -1,5 +1,7 @@
 # Basic Concepts and Operations
 
+> Programs must be written for people to read, and only incidentally for machines to execute. - [SICP](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-7.html)
+
 - [Hello World](hello-world.ipynb): Using `print` to say "hello world" and learn string and comment. [YouTube Video: Hello World](https://youtu.be/gLDAJiWOmj8).
 - [Variable Declaration and Naming](variable-assignment-naming.ipynb): variable assignment and its naming conventions. [YouTube Video: variable assignment naming](https://youtu.be/j415LA6XROA).
 - [Types and Operations](types-and-operations.ipynb): data types and operations. [YouTube Video: Types and Operations](https://youtu.be/HopGmJKTTE4)
