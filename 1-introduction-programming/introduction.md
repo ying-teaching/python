@@ -56,13 +56,13 @@ As you can see, programs written in high-level languages must be translated into
 
 ## Compiler and Interpreter
 
-A compiler translates high-level language program into separate machine language program. Machine language programs are executable applications that can be executed at any time.
+A compiler translates high-level language programs into machine language programs. Machine language programs are executable applications that can be executed by computers. Diffeernt comuputers (cell phone, PC, mainframe cmputer) may use different CPUs that execute different machine languages. It is the job of the compiler to compile the high level program into different machine code programs for different computers.
 
-There is another way to run programs written in high-level langauges: using interpreter. An interpreter translates and executes instructions in high-level language program such as Python. It interprets and executes one instrunction at a time.
+There is another way to run programs written in high-level langauges: using interpreter. An interpreter is a "machine" that translates and executes instructions in high-level language program such as Python. It interprets and executes one instrunction at a time.
 
 ![interpreter](./images/interpreter.png)
 
-Of course, the interpreter is a machine code file excuted in a CPU. You can think an interpreter as a **machine emulator** that can understand high-level langugase instructions.
+Of course, the interpreter is a machine code program excuted in a CPU. You can think an interpreter as a **machine emulator** or **software machine** that can understand and execute high-level langugase instructions.
 
 Python is an interpreter and Python programs are interprted (executed) by Python. A program language that requires an interpreter is often called a scripting langauge. A program written in scripting language is called a script.
 
