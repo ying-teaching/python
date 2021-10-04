@@ -35,27 +35,27 @@ The followin is table of content. It is organzied based on topics, not on a text
 - [Types and Operations](2-basic-operations/types-and-operations.ipynb): data types and operations. [YouTube Video: Types and Operations](https://youtu.be/HopGmJKTTE4)
 - [Reading Input](2-basic-operations/reading-input.ipynb): reading input of different types. [YouTube Video: Reading Input](https://youtu.be/5H09F6JFbIs)
 - [F-string](2-basic-operations/formatted-string.ipynb): format string literals in different ways. [YouTube Video: Formatted String](https://youtu.be/fEGRLW_--Co)
-
-## Code Demo 0: Turtle Graphics
-
-- [01 Turtle Graphics](code-demo/01-turtle-graphics.md): introduce the built-in `turtle` module. It is a markdown file because the turtle graphics and Jupyter notebook are not integrated well.
+- [Code demo: Turtle Graphics](2-basic-operations/code-demo/turtle-graphics.md): introduce the built-in `turtle` module.
 
 ## [Section 3: Decision Structure](3-decision-structure/)
 
 - [Boolean Expression](3-decision-structure/boolean-expression.ipynb): introduce the control structure concepts and Boolean expressions. [YouTube Video](https://youtu.be/BWH6Yj6rUyY).
 - [Decision Structure](3-decision-structure/decision-structure.ipynb): introduce the decision structure of if, else and elif. It also covers the important concept of code block. [YouTube Video](https://youtu.be/uwuLu6t95ow).
+- [Code demo: Hit the target](3-decision-structure/code-demo/hit_the_target.py)
 
 ## [Section 4: Repetition Structure](4-repetition-structure/)
 
 - [While Loop](4-repetition-structure/while-loop.ipynb): the while loop and `infinite` loop. [YouTube Video](https://youtu.be/42MhKOvWtwc).
 - [For Loop](4-repetition-structure/for-loop.ipynb): sequence of data times and `for` loop. [YouTube Video](https://youtu.be/OLITHW_gXXo).
 - [Continue and Break](4-repetition-structure/break-and-continue.ipynb): the `continue` and `break` statement. [YouTube Video](https://youtu.be/oHAa0I1kbow).
+- [Code demo: Factorial and Spiral Circle](4-repetition-structure/code-demo)
 
 ## [Section 5: Functions](5-functions/)
 
 - [Function Concepts](5-functions/function-concepts.md): function concept, definition and call. [YouTube Video](https://youtu.be/BV2AE2lmSq4)
 - [`main` and Scope](5-functions/main-and-scope.md): the `main` function and variable scopes. [YouTube Video](https://youtu.be/rXF1BgkU5qs)
 - [Module](5-functions/module.md): module concepts and built-in modules. [YouTube Video](https://youtu.be/Q8GHvsXhmIQ)
+- [Code demo: Hit the target](5-functions/code-demo)
 
 ## [Section 6: Files](6-files/)
 
