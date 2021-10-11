@@ -13,9 +13,6 @@ turtle.speed(ANIMATION_SPEED)
 # Draw 36 circles, with the turtle tilted
 # by 10 degrees after each circle is drawn.
 for x in range(NUM_CIRCLES):
-    # color_index = x % len(COLORS)
-    # color = COLORS[color_index]
-    # turtle.color(color)
     turtle.circle(RADIUS)
     turtle.left(ANGLE)
 
