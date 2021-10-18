@@ -61,7 +61,8 @@ def function_name1():
     ...
 
 
-# define a function: two parameters, no retrun value
+# define a function: two parameters, no retrun statement
+# returns None as default value
 def function_name2(parameter1, parameter2):
     """Document for this function."""
     statement
