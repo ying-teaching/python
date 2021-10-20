@@ -1,6 +1,6 @@
 # `main` and Variable Scope
 
-This section introduces the `main` function and varaible scopes.
+This section introduces the `main` function and variable scopes.
 
 ## 1 `main` Function
 
