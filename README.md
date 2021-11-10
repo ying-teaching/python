@@ -70,7 +70,7 @@ The followin is table of content. It is organzied based on topics, not on a text
 ## [Section 8: List and Tuple](8-list-and-tuple/)
 
 - [List Note](8-list-and-tuple/list.ipynb)
-- [Tuple Note](8-list-and-tuple/tupple.ipynb)
+- [Tuple Note](8-list-and-tuple/tuple.md)
 - [Lists Youtube Video](https://youtu.be/tw7ror9x32s)
 
 ## [Section 9: Dictionary and Set](9-dictionary-and-set/)
