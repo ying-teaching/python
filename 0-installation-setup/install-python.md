@@ -16,11 +16,11 @@ Please download and install the latest Python 3 version from [Python Dowland Sit
 
 ### Windows
 
-[How to Install Python 3.8.2 on Windows 10](https://youtu.be/UvcQlPZ8ecA). Run `python` and check the version.
+Please install the latest Python version following the video [How to Install Python 3.10.4 on Windows 10](https://youtu.be/UvcQlPZ8ecA). Run `python --version` to check that you install the right version.
 
 ### MacOS
 
-[How to install Python on Mac OS](https://youtu.be/TgA4ObrowRg). Make sure that you can run `python3` from the command line. For advanced user, you can check the [Using Python on a Macintosh](https://docs.python.org/3/using/mac.html).
+Please install the latest Python version following the video [How to install Python on Mac OS](https://youtu.be/TgA4ObrowRg). Make sure that you can run `python3` from the command line. For advanced user, you can check the [Using Python on a Macintosh](https://docs.python.org/3/using/mac.html).
 
 ## Install Python Packages
 
