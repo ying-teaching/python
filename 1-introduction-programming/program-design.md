@@ -18,25 +18,6 @@ A successful software project will go through many iterations of the five phases
 
 Design is defined as the set of activities that you conduct to understand the problem, describe the problem and develop the solution. Design is followed by coding and testing. For any non-trivial problem, design is the most important part of the software development because it describes the problem solutions and testing criteria.
 
-## Systmatic Program Design
-
-For new programmers, the most common mistake is not spending enough time in program design. As most scientific disciplines, a systematic program design makes you a better programmer.
-
-![htdp](./images/htdp.png)
-
-According to the above book [How to Design Programs](https://htdp.org/), the [Systematic program design](https://htdp.org/2020-8-1/Book/part_preface.html) has the following steps:
-
-> 1. From Problem Analysis to Data Definitions: Identify the information that must be represented and how it is represented in the chosen programming language. Formulate data definitions and illustrate them with examples.
-> 2. Signature, Purpose Statement, Header: State what kind of data the desired function consumes and produces. Formulate a concise answer to the question what the function computes. Define a stub that lives up to the signature.
-> 3. Functional Examples: Work through examples that illustrate the function’s purpose.
-> 4. Function Template: Translate the data definitions into an outline of the function.
-> 5. Function Definition: Fill in the gaps in the function template. Exploit the purpose statement and the examples.
-> 6. Testing: Articulate the examples as tests and ensure that the function passes all. Doing so discovers mistakes. Tests also supplement examples in that they help others read and understand the definition when the need arises—and it will arise for any serious program.
-
-The whole program can be seen as a big function that consists of many small functions. A function takes an input, processing the input data and produces an output. The above steps are performed in many iterations for functions in different levels.
-
-Note: The book [How to Design Programs](https://htdp.org/) is a free online book. It is used by several online free courses. A good one is the edX course [How to Code: Simple Data](https://www.edx.org/course/how-to-code-simple-data) from the University of British Columbia. One thing you can learn from the book/course is that all programming langauges are similar once you know the principles. Design is importatn and coding is easier than design.
-
 ## Algorithm and Pseudocode
 
 For complex problems, you first determine the high-level steps that must be taken to perform the task, i.e., you break down the required task into a series of steps. If a step represents a big task, you repeat the process to break into small steps that is easy to be solved.

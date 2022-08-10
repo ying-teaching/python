@@ -31,7 +31,7 @@ For detail information about a specific feature, check the [VS Code User Guide](
 
 ## Setup Python for VS Code
 
-VS Code has powerful support for Python programming. You need to install the [Microsoftw Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python). Be caerful to install the Microsoft extention -- it is the best.
+VS Code has powerful support for Python programming. You need to install the [Microsoft Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python). Be caerful to install the Microsoft extention -- it is the best.
 
 To see an installation/setup demo, you can watch one of the following videos:
 
@@ -42,11 +42,11 @@ To see an installation/setup demo, you can watch one of the following videos:
 
 You should start with the [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial) and try our the examples in the tutorial. For new developers, you don't need to create virtual environment as described in the last section in the document. You can skip step 1 and 2 and directly install `matplotlib` in command line. In both Windows and Mac OS, just run `pip install matplotlib` and you should be able to run a plot application.
 
-The next step is to be familiar with the following sections of the Python in VS Code document. The Jupyter Notebook is useful to write note that mixes Markdown text and Python code. It is very popular among data scientists.
+## Jupyte Notebook
 
-- [Editing Python in Visual Studio Code](https://code.visualstudio.com/docs/python/editing)
-- [Working with Jupyter Notebooks](https://code.visualstudio.com/docs/python/jupyter-support)
-- [Working with the Python Interactive window](https://code.visualstudio.com/docs/python/jupyter-support-py)
+The Jupyter Notebook is useful to write note that mixes Markdown text and Python code. It is very popular among data scientists. [Data Science in VS Code](https://code.visualstudio.com/docs/datascience/overview) is the document to use Jupyte Notebooks in VS Code. The VS code Jupyte-related extensions are installed when you install the Python extension.
+
+## Learning Resources
 
 The following two videos from Microsoft VS code tema are a good introduction to programming Python in VS Code.
 
