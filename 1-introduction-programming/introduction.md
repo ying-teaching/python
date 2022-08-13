@@ -32,7 +32,7 @@ Machine languages are impractical for people to write and understand. Computer s
 
 ![assembly](./images/assembly.jpg)
 
-Nonetheless, computers can only understand and execute machine languages. Therefore there is a so-called **Assembler** to translate a assembly language to a machine language for execution by CPU.
+Nonetheless, computers can only understand and execute machine languages. Therefore there is a so-called **Assembler** to translate an assembly language to a machine language for execution by CPU.
 
 However, assembly languages are close in nature to machine language. Both machine languages and assembly languages are low-level languages because they have low-level relatively simple instructions.
 
@@ -41,18 +41,6 @@ High-Level languages invented to allow simple creation of powerful and complex p
 ![high-level-language](./images/high-level-language.png)
 
 As you can see, programs written in high-level languages must be translated into machine language to be executed.
-
-## Constructs of a Programming Language
-
-- Keywords: predefined words used to write program in high-level language.
-  - Each keyword has specific meaning. For example: `if`, `true`.
-- Operators: perform operations on data.
-  - Example: math operators `+` and `-` to perform arithmetic.
-- Syntax: set of rules to be followed when writing program.
-- Expression: a single value such as `3` or an operation such as `3 + 5` that produce a value.
-- Statement: individual instruction that use expression(s) to perform a task. For example: `print(3 + 5)`.
-- Source code: statements written by programmer.
-- Syntax error: errors that prevent code from being translated into machine code.
 
 ## Compiler and Interpreter
 
@@ -70,7 +58,7 @@ The key differences between a compiler and an interpreter are:
 
 - all vs one statement a step: a compiler compiles all instructions together. An interpreter interprets one instruction/statement at one time.
 - executable files or not: A compiler produces excutable machine code files from source code files. An interpreter doesn't produce any executable files from source code file.
-- where to run: for a compiler, a user runs the executable file (program/application) in a computer or a virtual machine. An intepreters interpretes and executes a statement at a time directly from source code.
+- what to run: for a compiler, a user runs the executable file (program/application) in a computer or a virtual machine. An intepreters interpretes and executes a statement at a time directly from source code.
 
 ![compiler-interpreter](./images/compiler-interpreter.png)
 
@@ -78,3 +66,49 @@ However, the boundary between a compiler and an interpreter is not clear because
 
 ![bytecode-machinecode](./images/bytecode-machinecode.png)
 (source: [geeksforgeeks.org: Difference between Byte Code and Machine Code](https://www.geeksforgeeks.org/difference-between-byte-code-and-machine-code/))
+
+## Concepts of a Programming Language
+
+### Constructs
+
+- Primitive Constructs
+  - Literals: `3`, `"abc"`
+  - Keywords: predefined words used to write program in high-level language. For example: `if`, `while`.
+    - Each keyword has specific meaning. For example: `if`, `true`.
+  - Operators: perform operations on data. Example: math operators `+` and `-` to perform arithmetic.
+- Syntax: set of rules to be followed when writing program.
+- Static semantics: rules define which syntactically valid strings have a meaning. For example: "He run quickly". In code: `3 / "abc"` or `3 / 0`. Dynamically typed languages don't check this.
+- Semantics: the emaning of the code.
+
+### Turing Completeness
+
+A **Universal Turing Machine** can be programmed to compute any computable functions.
+
+A program language is **Turing complete** if it can be used to simulate a universal Turing machine. It sounds scary but it is simple in practice:
+
+- can read and write data/variables.
+- supports branches `if ... else ...`.
+- suppports loops `do ... until...`.
+
+Most programming languages are Turing complete. But there are languages that are not. For example, Bitcoin script is not Turing complete, why?
+
+### Elements of a Program
+
+A program is a set of instructions written in a specific programming langauge.
+
+- Expression: a single value such as `3` or an operation such as `3 + 5` that produce a value.
+- Statement: individual instruction that use expression(s) to perform a task. For example: `print(3 + 5)`.
+- Source code: statements written by programmer.
+
+### Program Errors
+
+- Syntactic error: code violiates the syntactic rules. For example: `3 +- 5`.
+- Semantic error: the program has as unintented menaing. For example, you calculate the sum of two numbers by `n1 * n2`.
+
+What might happen if a program has an error
+
+- Syntactic error: This is a "Good" error because compiler/intepreter refuse to run the code. The program fails fast.
+- Semantic error: this is "Bad" error with bad consequnces:
+  - The program crashes
+  - The program runs forever
+  - The program appears nomral but might give wrong results. This might cause big damages.
